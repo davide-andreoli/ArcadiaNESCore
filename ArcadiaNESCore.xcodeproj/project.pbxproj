@@ -10,7 +10,6 @@
 		952CF2652C07151200DF2832 /* LibretroNestopia.m in Sources */ = {isa = PBXBuildFile; fileRef = 952CF2642C07151200DF2832 /* LibretroNestopia.m */; };
 		952CF2662C07151200DF2832 /* LibretroNestopia.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 952CF2632C07151200DF2832 /* LibretroNestopia.h */; };
 		952CF26B2C07180200DF2832 /* NESCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CF26A2C07180200DF2832 /* NESCore.swift */; };
-		952CF26D2C07182400DF2832 /* libLibretroNestopia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 952CF2612C07151200DF2832 /* libLibretroNestopia.a */; };
 		952CF2722C071D9500DF2832 /* NESCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 952CF2712C071D9500DF2832 /* NESCore.m */; };
 		952CF2732C071DE500DF2832 /* NESCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 952CF26E2C07195700DF2832 /* NESCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		952CF54F2C071E9B00DF2832 /* libretro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF2942C071E9B00DF2832 /* libretro.cpp */; };
@@ -315,6 +314,40 @@
 		952CF67B2C071E9C00DF2832 /* benchmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 952CF5382C071E9B00DF2832 /* benchmark.c */; };
 		952CF67E2C07240900DF2832 /* ArcadiaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952CF67D2C07240900DF2832 /* ArcadiaCore.framework */; };
 		952CF67F2C07240900DF2832 /* ArcadiaCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 952CF67D2C07240900DF2832 /* ArcadiaCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		952CF68C2C0741A600DF2832 /* LibretroQuickNES.m in Sources */ = {isa = PBXBuildFile; fileRef = 952CF68B2C0741A600DF2832 /* LibretroQuickNES.m */; };
+		952CF68D2C0741A600DF2832 /* LibretroQuickNES.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 952CF68A2C0741A600DF2832 /* LibretroQuickNES.h */; };
+		952CF7392C07422400DF2832 /* libretro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF6B32C07422400DF2832 /* libretro.cpp */; };
+		952CF73A2C07422400DF2832 /* abstract_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF6ED2C07422400DF2832 /* abstract_file.cpp */; };
+		952CF73B2C07422400DF2832 /* apu_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF6EF2C07422400DF2832 /* apu_state.cpp */; };
+		952CF73C2C07422400DF2832 /* Blip_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF6F52C07422400DF2832 /* Blip_Buffer.cpp */; };
+		952CF73D2C07422400DF2832 /* Data_Reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF6F72C07422400DF2832 /* Data_Reader.cpp */; };
+		952CF73E2C07422400DF2832 /* Effects_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF6F92C07422400DF2832 /* Effects_Buffer.cpp */; };
+		952CF73F2C07422400DF2832 /* emu2413_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF6FB2C07422400DF2832 /* emu2413_state.cpp */; };
+		952CF7402C07422400DF2832 /* emu2413.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF6FD2C07422400DF2832 /* emu2413.cpp */; };
+		952CF7412C07422400DF2832 /* Multi_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF6FF2C07422400DF2832 /* Multi_Buffer.cpp */; };
+		952CF7422C07422400DF2832 /* Nes_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7012C07422400DF2832 /* Nes_Apu.cpp */; };
+		952CF7432C07422400DF2832 /* Nes_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7032C07422400DF2832 /* Nes_Buffer.cpp */; };
+		952CF7442C07422400DF2832 /* Nes_Cart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7052C07422400DF2832 /* Nes_Cart.cpp */; };
+		952CF7452C07422400DF2832 /* Nes_Core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7072C07422400DF2832 /* Nes_Core.cpp */; };
+		952CF7462C07422400DF2832 /* Nes_Cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF70A2C07422400DF2832 /* Nes_Cpu.cpp */; };
+		952CF7472C07422400DF2832 /* nes_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF70C2C07422400DF2832 /* nes_data.cpp */; };
+		952CF7482C07422400DF2832 /* Nes_Effects_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF70E2C07422400DF2832 /* Nes_Effects_Buffer.cpp */; };
+		952CF7492C07422400DF2832 /* Nes_Emu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7102C07422400DF2832 /* Nes_Emu.cpp */; };
+		952CF74A2C07422400DF2832 /* Nes_File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7122C07422400DF2832 /* Nes_File.cpp */; };
+		952CF74B2C07422400DF2832 /* Nes_Fme7_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7142C07422400DF2832 /* Nes_Fme7_Apu.cpp */; };
+		952CF74C2C07422400DF2832 /* Nes_Mapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7162C07422400DF2832 /* Nes_Mapper.cpp */; };
+		952CF74D2C07422400DF2832 /* Nes_Namco_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7182C07422400DF2832 /* Nes_Namco_Apu.cpp */; };
+		952CF74E2C07422400DF2832 /* nes_ntsc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF71C2C07422400DF2832 /* nes_ntsc.cpp */; };
+		952CF74F2C07422400DF2832 /* Nes_Oscs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF71E2C07422400DF2832 /* Nes_Oscs.cpp */; };
+		952CF7502C07422400DF2832 /* Nes_Ppu_Impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7212C07422400DF2832 /* Nes_Ppu_Impl.cpp */; };
+		952CF7512C07422400DF2832 /* Nes_Ppu_Rendering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7232C07422400DF2832 /* Nes_Ppu_Rendering.cpp */; };
+		952CF7522C07422400DF2832 /* Nes_Ppu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7262C07422400DF2832 /* Nes_Ppu.cpp */; };
+		952CF7532C07422400DF2832 /* Nes_State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7282C07422400DF2832 /* Nes_State.cpp */; };
+		952CF7542C07422400DF2832 /* nes_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF72A2C07422400DF2832 /* nes_util.cpp */; };
+		952CF7552C07422400DF2832 /* Nes_Vrc6_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF72C2C07422400DF2832 /* Nes_Vrc6_Apu.cpp */; };
+		952CF7562C07422400DF2832 /* Nes_Vrc7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF72E2C07422400DF2832 /* Nes_Vrc7.cpp */; };
+		952CF7572C07422400DF2832 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7362C07422400DF2832 /* Makefile */; };
+		952CF7582C07524A00DF2832 /* libLibretroQuickNES.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 952CF6882C0741A600DF2832 /* libLibretroQuickNES.a */; };
 		957081872C05E9F500217B82 /* ArcadiaNESCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = 957081862C05E9F500217B82 /* ArcadiaNESCore.docc */; };
 		9570818D2C05E9F600217B82 /* ArcadiaNESCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957081822C05E9F500217B82 /* ArcadiaNESCore.framework */; };
 		957081922C05E9F600217B82 /* ArcadiaNESCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957081912C05E9F600217B82 /* ArcadiaNESCoreTests.swift */; };
@@ -322,6 +355,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		952CF7592C07524A00DF2832 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 957081792C05E9F500217B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952CF6872C0741A600DF2832;
+			remoteInfo = LibretroQuickNES;
+		};
 		9570818E2C05E9F600217B82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 957081792C05E9F500217B82 /* Project object */;
@@ -351,6 +391,16 @@
 				952CF67F2C07240900DF2832 /* ArcadiaCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952CF6862C0741A600DF2832 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				952CF68D2C0741A600DF2832 /* LibretroQuickNES.h in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -1072,6 +1122,165 @@
 		952CF54C2C071E9B00DF2832 /* schemadb.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schemadb.xsd; sourceTree = "<group>"; };
 		952CF54D2C071E9B00DF2832 /* schemaromset.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schemaromset.xsd; sourceTree = "<group>"; };
 		952CF67D2C07240900DF2832 /* ArcadiaCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ArcadiaCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		952CF6882C0741A600DF2832 /* libLibretroQuickNES.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLibretroQuickNES.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		952CF68A2C0741A600DF2832 /* LibretroQuickNES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibretroQuickNES.h; sourceTree = "<group>"; };
+		952CF68B2C0741A600DF2832 /* LibretroQuickNES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibretroQuickNES.m; sourceTree = "<group>"; };
+		952CF6912C07422400DF2832 /* compilation.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = compilation.yml; sourceTree = "<group>"; };
+		952CF6922C07422400DF2832 /* crowdin_prep.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = crowdin_prep.yml; sourceTree = "<group>"; };
+		952CF6932C07422400DF2832 /* crowdin_translate.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = crowdin_translate.yml; sourceTree = "<group>"; };
+		952CF6962C07422400DF2832 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		952CF6972C07422400DF2832 /* activate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = activate.py; sourceTree = "<group>"; };
+		952CF6982C07422400DF2832 /* core_option_regex.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = core_option_regex.py; sourceTree = "<group>"; };
+		952CF6992C07422400DF2832 /* core_option_translation.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = core_option_translation.py; sourceTree = "<group>"; };
+		952CF69A2C07422400DF2832 /* crowdin_prep.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = crowdin_prep.py; sourceTree = "<group>"; };
+		952CF69B2C07422400DF2832 /* crowdin_source_upload.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = crowdin_source_upload.py; sourceTree = "<group>"; };
+		952CF69C2C07422400DF2832 /* crowdin_translate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = crowdin_translate.py; sourceTree = "<group>"; };
+		952CF69D2C07422400DF2832 /* crowdin_translation_download.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = crowdin_translation_download.py; sourceTree = "<group>"; };
+		952CF69E2C07422400DF2832 /* crowdin.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = crowdin.yaml; sourceTree = "<group>"; };
+		952CF69F2C07422400DF2832 /* download_workflow.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = download_workflow.py; sourceTree = "<group>"; };
+		952CF6A02C07422400DF2832 /* initial_sync.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = initial_sync.py; sourceTree = "<group>"; };
+		952CF6A12C07422400DF2832 /* remove_initial_cycle.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = remove_initial_cycle.py; sourceTree = "<group>"; };
+		952CF6A22C07422400DF2832 /* upload_workflow.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = upload_workflow.py; sourceTree = "<group>"; };
+		952CF6A32C07422400DF2832 /* v1_to_v2_converter.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = v1_to_v2_converter.py; sourceTree = "<group>"; };
+		952CF6A52C07422400DF2832 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
+		952CF6A62C07422400DF2832 /* Application.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Application.mk; sourceTree = "<group>"; };
+		952CF6A82C07422400DF2832 /* stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdint.h; sourceTree = "<group>"; };
+		952CF6AA2C07422400DF2832 /* msvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msvc.h; sourceTree = "<group>"; };
+		952CF6AC2C07422400DF2832 /* libretro_gskit_ps2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libretro_gskit_ps2.h; sourceTree = "<group>"; };
+		952CF6AD2C07422400DF2832 /* libretro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libretro.h; sourceTree = "<group>"; };
+		952CF6AE2C07422400DF2832 /* retro_inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retro_inline.h; sourceTree = "<group>"; };
+		952CF6B12C07422400DF2832 /* libretro_core_options_intl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libretro_core_options_intl.h; sourceTree = "<group>"; };
+		952CF6B22C07422400DF2832 /* libretro_core_options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libretro_core_options.h; sourceTree = "<group>"; };
+		952CF6B32C07422400DF2832 /* libretro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = libretro.cpp; sourceTree = "<group>"; };
+		952CF6B52C07422400DF2832 /* mapper000.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper000.hpp; sourceTree = "<group>"; };
+		952CF6B62C07422400DF2832 /* mapper001.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper001.hpp; sourceTree = "<group>"; };
+		952CF6B72C07422400DF2832 /* mapper002.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper002.hpp; sourceTree = "<group>"; };
+		952CF6B82C07422400DF2832 /* mapper003.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper003.hpp; sourceTree = "<group>"; };
+		952CF6B92C07422400DF2832 /* mapper004.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper004.hpp; sourceTree = "<group>"; };
+		952CF6BA2C07422400DF2832 /* mapper005.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper005.hpp; sourceTree = "<group>"; };
+		952CF6BB2C07422400DF2832 /* mapper007.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper007.hpp; sourceTree = "<group>"; };
+		952CF6BC2C07422400DF2832 /* mapper009.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper009.hpp; sourceTree = "<group>"; };
+		952CF6BD2C07422400DF2832 /* mapper010.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper010.hpp; sourceTree = "<group>"; };
+		952CF6BE2C07422400DF2832 /* mapper011.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper011.hpp; sourceTree = "<group>"; };
+		952CF6BF2C07422400DF2832 /* mapper015.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper015.hpp; sourceTree = "<group>"; };
+		952CF6C02C07422400DF2832 /* mapper019.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper019.hpp; sourceTree = "<group>"; };
+		952CF6C12C07422400DF2832 /* mapper021.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper021.hpp; sourceTree = "<group>"; };
+		952CF6C22C07422400DF2832 /* mapper022.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper022.hpp; sourceTree = "<group>"; };
+		952CF6C32C07422400DF2832 /* mapper023.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper023.hpp; sourceTree = "<group>"; };
+		952CF6C42C07422400DF2832 /* mapper024.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper024.hpp; sourceTree = "<group>"; };
+		952CF6C52C07422400DF2832 /* mapper025.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper025.hpp; sourceTree = "<group>"; };
+		952CF6C62C07422400DF2832 /* mapper026.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper026.hpp; sourceTree = "<group>"; };
+		952CF6C72C07422400DF2832 /* mapper030.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper030.hpp; sourceTree = "<group>"; };
+		952CF6C82C07422400DF2832 /* mapper032.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper032.hpp; sourceTree = "<group>"; };
+		952CF6C92C07422400DF2832 /* mapper033.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper033.hpp; sourceTree = "<group>"; };
+		952CF6CA2C07422400DF2832 /* mapper034.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper034.hpp; sourceTree = "<group>"; };
+		952CF6CB2C07422400DF2832 /* mapper060.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper060.hpp; sourceTree = "<group>"; };
+		952CF6CC2C07422400DF2832 /* mapper066.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper066.hpp; sourceTree = "<group>"; };
+		952CF6CD2C07422400DF2832 /* mapper069.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper069.hpp; sourceTree = "<group>"; };
+		952CF6CE2C07422400DF2832 /* mapper070.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper070.hpp; sourceTree = "<group>"; };
+		952CF6CF2C07422400DF2832 /* mapper071.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper071.hpp; sourceTree = "<group>"; };
+		952CF6D02C07422400DF2832 /* mapper073.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper073.hpp; sourceTree = "<group>"; };
+		952CF6D12C07422400DF2832 /* mapper075.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper075.hpp; sourceTree = "<group>"; };
+		952CF6D22C07422400DF2832 /* mapper078.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper078.hpp; sourceTree = "<group>"; };
+		952CF6D32C07422400DF2832 /* mapper079.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper079.hpp; sourceTree = "<group>"; };
+		952CF6D42C07422400DF2832 /* mapper085.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper085.hpp; sourceTree = "<group>"; };
+		952CF6D52C07422400DF2832 /* mapper086.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper086.hpp; sourceTree = "<group>"; };
+		952CF6D62C07422400DF2832 /* mapper087.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper087.hpp; sourceTree = "<group>"; };
+		952CF6D72C07422400DF2832 /* mapper088.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper088.hpp; sourceTree = "<group>"; };
+		952CF6D82C07422400DF2832 /* mapper089.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper089.hpp; sourceTree = "<group>"; };
+		952CF6D92C07422400DF2832 /* mapper093.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper093.hpp; sourceTree = "<group>"; };
+		952CF6DA2C07422400DF2832 /* mapper094.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper094.hpp; sourceTree = "<group>"; };
+		952CF6DB2C07422400DF2832 /* mapper097.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper097.hpp; sourceTree = "<group>"; };
+		952CF6DC2C07422400DF2832 /* mapper113.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper113.hpp; sourceTree = "<group>"; };
+		952CF6DD2C07422400DF2832 /* mapper140.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper140.hpp; sourceTree = "<group>"; };
+		952CF6DE2C07422400DF2832 /* mapper152.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper152.hpp; sourceTree = "<group>"; };
+		952CF6DF2C07422400DF2832 /* mapper154.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper154.hpp; sourceTree = "<group>"; };
+		952CF6E02C07422400DF2832 /* mapper156.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper156.hpp; sourceTree = "<group>"; };
+		952CF6E12C07422400DF2832 /* mapper180.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper180.hpp; sourceTree = "<group>"; };
+		952CF6E22C07422400DF2832 /* mapper184.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper184.hpp; sourceTree = "<group>"; };
+		952CF6E32C07422400DF2832 /* mapper190.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper190.hpp; sourceTree = "<group>"; };
+		952CF6E42C07422400DF2832 /* mapper193.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper193.hpp; sourceTree = "<group>"; };
+		952CF6E52C07422400DF2832 /* mapper206.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper206.hpp; sourceTree = "<group>"; };
+		952CF6E62C07422400DF2832 /* mapper207.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper207.hpp; sourceTree = "<group>"; };
+		952CF6E72C07422400DF2832 /* mapper232.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper232.hpp; sourceTree = "<group>"; };
+		952CF6E82C07422400DF2832 /* mapper240.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper240.hpp; sourceTree = "<group>"; };
+		952CF6E92C07422400DF2832 /* mapper241.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper241.hpp; sourceTree = "<group>"; };
+		952CF6EA2C07422400DF2832 /* mapper244.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper244.hpp; sourceTree = "<group>"; };
+		952CF6EB2C07422400DF2832 /* mapper246.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper246.hpp; sourceTree = "<group>"; };
+		952CF6ED2C07422400DF2832 /* abstract_file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = abstract_file.cpp; sourceTree = "<group>"; };
+		952CF6EE2C07422400DF2832 /* abstract_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abstract_file.h; sourceTree = "<group>"; };
+		952CF6EF2C07422400DF2832 /* apu_state.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = apu_state.cpp; sourceTree = "<group>"; };
+		952CF6F02C07422400DF2832 /* apu_state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apu_state.h; sourceTree = "<group>"; };
+		952CF6F12C07422400DF2832 /* blargg_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_common.h; sourceTree = "<group>"; };
+		952CF6F22C07422400DF2832 /* blargg_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_config.h; sourceTree = "<group>"; };
+		952CF6F32C07422400DF2832 /* blargg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_endian.h; sourceTree = "<group>"; };
+		952CF6F42C07422400DF2832 /* blargg_source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_source.h; sourceTree = "<group>"; };
+		952CF6F52C07422400DF2832 /* Blip_Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Blip_Buffer.cpp; sourceTree = "<group>"; };
+		952CF6F62C07422400DF2832 /* Blip_Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blip_Buffer.h; sourceTree = "<group>"; };
+		952CF6F72C07422400DF2832 /* Data_Reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Data_Reader.cpp; sourceTree = "<group>"; };
+		952CF6F82C07422400DF2832 /* Data_Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data_Reader.h; sourceTree = "<group>"; };
+		952CF6F92C07422400DF2832 /* Effects_Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Effects_Buffer.cpp; sourceTree = "<group>"; };
+		952CF6FA2C07422400DF2832 /* Effects_Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Effects_Buffer.h; sourceTree = "<group>"; };
+		952CF6FB2C07422400DF2832 /* emu2413_state.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emu2413_state.cpp; sourceTree = "<group>"; };
+		952CF6FC2C07422400DF2832 /* emu2413_state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emu2413_state.h; sourceTree = "<group>"; };
+		952CF6FD2C07422400DF2832 /* emu2413.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emu2413.cpp; sourceTree = "<group>"; };
+		952CF6FE2C07422400DF2832 /* emu2413.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emu2413.h; sourceTree = "<group>"; };
+		952CF6FF2C07422400DF2832 /* Multi_Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Multi_Buffer.cpp; sourceTree = "<group>"; };
+		952CF7002C07422400DF2832 /* Multi_Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multi_Buffer.h; sourceTree = "<group>"; };
+		952CF7012C07422400DF2832 /* Nes_Apu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Apu.cpp; sourceTree = "<group>"; };
+		952CF7022C07422400DF2832 /* Nes_Apu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Apu.h; sourceTree = "<group>"; };
+		952CF7032C07422400DF2832 /* Nes_Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Buffer.cpp; sourceTree = "<group>"; };
+		952CF7042C07422400DF2832 /* Nes_Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Buffer.h; sourceTree = "<group>"; };
+		952CF7052C07422400DF2832 /* Nes_Cart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Cart.cpp; sourceTree = "<group>"; };
+		952CF7062C07422400DF2832 /* Nes_Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Cart.h; sourceTree = "<group>"; };
+		952CF7072C07422400DF2832 /* Nes_Core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Core.cpp; sourceTree = "<group>"; };
+		952CF7082C07422400DF2832 /* Nes_Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Core.h; sourceTree = "<group>"; };
+		952CF7092C07422400DF2832 /* nes_cpu_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_cpu_io.h; sourceTree = "<group>"; };
+		952CF70A2C07422400DF2832 /* Nes_Cpu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Cpu.cpp; sourceTree = "<group>"; };
+		952CF70B2C07422400DF2832 /* Nes_Cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Cpu.h; sourceTree = "<group>"; };
+		952CF70C2C07422400DF2832 /* nes_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nes_data.cpp; sourceTree = "<group>"; };
+		952CF70D2C07422400DF2832 /* nes_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_data.h; sourceTree = "<group>"; };
+		952CF70E2C07422400DF2832 /* Nes_Effects_Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Effects_Buffer.cpp; sourceTree = "<group>"; };
+		952CF70F2C07422400DF2832 /* Nes_Effects_Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Effects_Buffer.h; sourceTree = "<group>"; };
+		952CF7102C07422400DF2832 /* Nes_Emu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Emu.cpp; sourceTree = "<group>"; };
+		952CF7112C07422400DF2832 /* Nes_Emu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Emu.h; sourceTree = "<group>"; };
+		952CF7122C07422400DF2832 /* Nes_File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_File.cpp; sourceTree = "<group>"; };
+		952CF7132C07422400DF2832 /* Nes_File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_File.h; sourceTree = "<group>"; };
+		952CF7142C07422400DF2832 /* Nes_Fme7_Apu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Fme7_Apu.cpp; sourceTree = "<group>"; };
+		952CF7152C07422400DF2832 /* Nes_Fme7_Apu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Fme7_Apu.h; sourceTree = "<group>"; };
+		952CF7162C07422400DF2832 /* Nes_Mapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Mapper.cpp; sourceTree = "<group>"; };
+		952CF7172C07422400DF2832 /* Nes_Mapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Mapper.h; sourceTree = "<group>"; };
+		952CF7182C07422400DF2832 /* Nes_Namco_Apu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Namco_Apu.cpp; sourceTree = "<group>"; };
+		952CF7192C07422400DF2832 /* Nes_Namco_Apu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Namco_Apu.h; sourceTree = "<group>"; };
+		952CF71A2C07422400DF2832 /* nes_ntsc_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_ntsc_config.h; sourceTree = "<group>"; };
+		952CF71B2C07422400DF2832 /* nes_ntsc_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_ntsc_impl.h; sourceTree = "<group>"; };
+		952CF71C2C07422400DF2832 /* nes_ntsc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nes_ntsc.cpp; sourceTree = "<group>"; };
+		952CF71D2C07422400DF2832 /* nes_ntsc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_ntsc.h; sourceTree = "<group>"; };
+		952CF71E2C07422400DF2832 /* Nes_Oscs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Oscs.cpp; sourceTree = "<group>"; };
+		952CF71F2C07422400DF2832 /* Nes_Oscs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Oscs.h; sourceTree = "<group>"; };
+		952CF7202C07422400DF2832 /* Nes_Ppu_Bg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Ppu_Bg.h; sourceTree = "<group>"; };
+		952CF7212C07422400DF2832 /* Nes_Ppu_Impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Ppu_Impl.cpp; sourceTree = "<group>"; };
+		952CF7222C07422400DF2832 /* Nes_Ppu_Impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Ppu_Impl.h; sourceTree = "<group>"; };
+		952CF7232C07422400DF2832 /* Nes_Ppu_Rendering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Ppu_Rendering.cpp; sourceTree = "<group>"; };
+		952CF7242C07422400DF2832 /* Nes_Ppu_Rendering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Ppu_Rendering.h; sourceTree = "<group>"; };
+		952CF7252C07422400DF2832 /* Nes_Ppu_Sprites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Ppu_Sprites.h; sourceTree = "<group>"; };
+		952CF7262C07422400DF2832 /* Nes_Ppu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Ppu.cpp; sourceTree = "<group>"; };
+		952CF7272C07422400DF2832 /* Nes_Ppu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Ppu.h; sourceTree = "<group>"; };
+		952CF7282C07422400DF2832 /* Nes_State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_State.cpp; sourceTree = "<group>"; };
+		952CF7292C07422400DF2832 /* Nes_State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_State.h; sourceTree = "<group>"; };
+		952CF72A2C07422400DF2832 /* nes_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nes_util.cpp; sourceTree = "<group>"; };
+		952CF72B2C07422400DF2832 /* nes_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_util.h; sourceTree = "<group>"; };
+		952CF72C2C07422400DF2832 /* Nes_Vrc6_Apu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Vrc6_Apu.cpp; sourceTree = "<group>"; };
+		952CF72D2C07422400DF2832 /* Nes_Vrc6_Apu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Vrc6_Apu.h; sourceTree = "<group>"; };
+		952CF72E2C07422400DF2832 /* Nes_Vrc7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Vrc7.cpp; sourceTree = "<group>"; };
+		952CF72F2C07422400DF2832 /* Nes_Vrc7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Vrc7.h; sourceTree = "<group>"; };
+		952CF7312C07422400DF2832 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		952CF7322C07422400DF2832 /* .gitlab-ci.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = ".gitlab-ci.yml"; sourceTree = "<group>"; };
+		952CF7332C07422400DF2832 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
+		952CF7342C07422400DF2832 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		952CF7352C07422400DF2832 /* link.T */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.T; sourceTree = "<group>"; };
+		952CF7362C07422400DF2832 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		952CF7372C07422400DF2832 /* Makefile.common */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.common; sourceTree = "<group>"; };
 		957081822C05E9F500217B82 /* ArcadiaNESCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ArcadiaNESCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		957081852C05E9F500217B82 /* ArcadiaNESCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArcadiaNESCore.h; sourceTree = "<group>"; };
 		957081862C05E9F500217B82 /* ArcadiaNESCore.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ArcadiaNESCore.docc; sourceTree = "<group>"; };
@@ -1087,12 +1296,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		952CF6852C0741A600DF2832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9570817F2C05E9F500217B82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				952CF26D2C07182400DF2832 /* libLibretroNestopia.a in Frameworks */,
 				952CF67E2C07240900DF2832 /* ArcadiaCore.framework in Frameworks */,
+				952CF7582C07524A00DF2832 /* libLibretroQuickNES.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1993,12 +2209,274 @@
 			path = nestopia;
 			sourceTree = "<group>";
 		};
+		952CF6892C0741A600DF2832 /* LibretroQuickNES */ = {
+			isa = PBXGroup;
+			children = (
+				952CF7382C07422400DF2832 /* QuickNES_Core */,
+				952CF68A2C0741A600DF2832 /* LibretroQuickNES.h */,
+				952CF68B2C0741A600DF2832 /* LibretroQuickNES.m */,
+			);
+			path = LibretroQuickNES;
+			sourceTree = "<group>";
+		};
+		952CF6942C07422400DF2832 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6912C07422400DF2832 /* compilation.yml */,
+				952CF6922C07422400DF2832 /* crowdin_prep.yml */,
+				952CF6932C07422400DF2832 /* crowdin_translate.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		952CF6952C07422400DF2832 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6942C07422400DF2832 /* workflows */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		952CF6A42C07422400DF2832 /* intl */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6962C07422400DF2832 /* .gitignore */,
+				952CF6972C07422400DF2832 /* activate.py */,
+				952CF6982C07422400DF2832 /* core_option_regex.py */,
+				952CF6992C07422400DF2832 /* core_option_translation.py */,
+				952CF69A2C07422400DF2832 /* crowdin_prep.py */,
+				952CF69B2C07422400DF2832 /* crowdin_source_upload.py */,
+				952CF69C2C07422400DF2832 /* crowdin_translate.py */,
+				952CF69D2C07422400DF2832 /* crowdin_translation_download.py */,
+				952CF69E2C07422400DF2832 /* crowdin.yaml */,
+				952CF69F2C07422400DF2832 /* download_workflow.py */,
+				952CF6A02C07422400DF2832 /* initial_sync.py */,
+				952CF6A12C07422400DF2832 /* remove_initial_cycle.py */,
+				952CF6A22C07422400DF2832 /* upload_workflow.py */,
+				952CF6A32C07422400DF2832 /* v1_to_v2_converter.py */,
+			);
+			path = intl;
+			sourceTree = "<group>";
+		};
+		952CF6A72C07422400DF2832 /* jni */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6A52C07422400DF2832 /* Android.mk */,
+				952CF6A62C07422400DF2832 /* Application.mk */,
+			);
+			path = jni;
+			sourceTree = "<group>";
+		};
+		952CF6A92C07422400DF2832 /* msvc */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6A82C07422400DF2832 /* stdint.h */,
+			);
+			path = msvc;
+			sourceTree = "<group>";
+		};
+		952CF6AB2C07422400DF2832 /* compat */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6A92C07422400DF2832 /* msvc */,
+				952CF6AA2C07422400DF2832 /* msvc.h */,
+			);
+			path = compat;
+			sourceTree = "<group>";
+		};
+		952CF6AF2C07422400DF2832 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6AB2C07422400DF2832 /* compat */,
+				952CF6AC2C07422400DF2832 /* libretro_gskit_ps2.h */,
+				952CF6AD2C07422400DF2832 /* libretro.h */,
+				952CF6AE2C07422400DF2832 /* retro_inline.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		952CF6B02C07422400DF2832 /* libretro-common */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6AF2C07422400DF2832 /* include */,
+			);
+			path = "libretro-common";
+			sourceTree = "<group>";
+		};
+		952CF6B42C07422400DF2832 /* libretro */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6B02C07422400DF2832 /* libretro-common */,
+				952CF6B12C07422400DF2832 /* libretro_core_options_intl.h */,
+				952CF6B22C07422400DF2832 /* libretro_core_options.h */,
+				952CF6B32C07422400DF2832 /* libretro.cpp */,
+			);
+			path = libretro;
+			sourceTree = "<group>";
+		};
+		952CF6EC2C07422400DF2832 /* mappers */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6B52C07422400DF2832 /* mapper000.hpp */,
+				952CF6B62C07422400DF2832 /* mapper001.hpp */,
+				952CF6B72C07422400DF2832 /* mapper002.hpp */,
+				952CF6B82C07422400DF2832 /* mapper003.hpp */,
+				952CF6B92C07422400DF2832 /* mapper004.hpp */,
+				952CF6BA2C07422400DF2832 /* mapper005.hpp */,
+				952CF6BB2C07422400DF2832 /* mapper007.hpp */,
+				952CF6BC2C07422400DF2832 /* mapper009.hpp */,
+				952CF6BD2C07422400DF2832 /* mapper010.hpp */,
+				952CF6BE2C07422400DF2832 /* mapper011.hpp */,
+				952CF6BF2C07422400DF2832 /* mapper015.hpp */,
+				952CF6C02C07422400DF2832 /* mapper019.hpp */,
+				952CF6C12C07422400DF2832 /* mapper021.hpp */,
+				952CF6C22C07422400DF2832 /* mapper022.hpp */,
+				952CF6C32C07422400DF2832 /* mapper023.hpp */,
+				952CF6C42C07422400DF2832 /* mapper024.hpp */,
+				952CF6C52C07422400DF2832 /* mapper025.hpp */,
+				952CF6C62C07422400DF2832 /* mapper026.hpp */,
+				952CF6C72C07422400DF2832 /* mapper030.hpp */,
+				952CF6C82C07422400DF2832 /* mapper032.hpp */,
+				952CF6C92C07422400DF2832 /* mapper033.hpp */,
+				952CF6CA2C07422400DF2832 /* mapper034.hpp */,
+				952CF6CB2C07422400DF2832 /* mapper060.hpp */,
+				952CF6CC2C07422400DF2832 /* mapper066.hpp */,
+				952CF6CD2C07422400DF2832 /* mapper069.hpp */,
+				952CF6CE2C07422400DF2832 /* mapper070.hpp */,
+				952CF6CF2C07422400DF2832 /* mapper071.hpp */,
+				952CF6D02C07422400DF2832 /* mapper073.hpp */,
+				952CF6D12C07422400DF2832 /* mapper075.hpp */,
+				952CF6D22C07422400DF2832 /* mapper078.hpp */,
+				952CF6D32C07422400DF2832 /* mapper079.hpp */,
+				952CF6D42C07422400DF2832 /* mapper085.hpp */,
+				952CF6D52C07422400DF2832 /* mapper086.hpp */,
+				952CF6D62C07422400DF2832 /* mapper087.hpp */,
+				952CF6D72C07422400DF2832 /* mapper088.hpp */,
+				952CF6D82C07422400DF2832 /* mapper089.hpp */,
+				952CF6D92C07422400DF2832 /* mapper093.hpp */,
+				952CF6DA2C07422400DF2832 /* mapper094.hpp */,
+				952CF6DB2C07422400DF2832 /* mapper097.hpp */,
+				952CF6DC2C07422400DF2832 /* mapper113.hpp */,
+				952CF6DD2C07422400DF2832 /* mapper140.hpp */,
+				952CF6DE2C07422400DF2832 /* mapper152.hpp */,
+				952CF6DF2C07422400DF2832 /* mapper154.hpp */,
+				952CF6E02C07422400DF2832 /* mapper156.hpp */,
+				952CF6E12C07422400DF2832 /* mapper180.hpp */,
+				952CF6E22C07422400DF2832 /* mapper184.hpp */,
+				952CF6E32C07422400DF2832 /* mapper190.hpp */,
+				952CF6E42C07422400DF2832 /* mapper193.hpp */,
+				952CF6E52C07422400DF2832 /* mapper206.hpp */,
+				952CF6E62C07422400DF2832 /* mapper207.hpp */,
+				952CF6E72C07422400DF2832 /* mapper232.hpp */,
+				952CF6E82C07422400DF2832 /* mapper240.hpp */,
+				952CF6E92C07422400DF2832 /* mapper241.hpp */,
+				952CF6EA2C07422400DF2832 /* mapper244.hpp */,
+				952CF6EB2C07422400DF2832 /* mapper246.hpp */,
+			);
+			path = mappers;
+			sourceTree = "<group>";
+		};
+		952CF7302C07422400DF2832 /* nes_emu */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6EC2C07422400DF2832 /* mappers */,
+				952CF6ED2C07422400DF2832 /* abstract_file.cpp */,
+				952CF6EE2C07422400DF2832 /* abstract_file.h */,
+				952CF6EF2C07422400DF2832 /* apu_state.cpp */,
+				952CF6F02C07422400DF2832 /* apu_state.h */,
+				952CF6F12C07422400DF2832 /* blargg_common.h */,
+				952CF6F22C07422400DF2832 /* blargg_config.h */,
+				952CF6F32C07422400DF2832 /* blargg_endian.h */,
+				952CF6F42C07422400DF2832 /* blargg_source.h */,
+				952CF6F52C07422400DF2832 /* Blip_Buffer.cpp */,
+				952CF6F62C07422400DF2832 /* Blip_Buffer.h */,
+				952CF6F72C07422400DF2832 /* Data_Reader.cpp */,
+				952CF6F82C07422400DF2832 /* Data_Reader.h */,
+				952CF6F92C07422400DF2832 /* Effects_Buffer.cpp */,
+				952CF6FA2C07422400DF2832 /* Effects_Buffer.h */,
+				952CF6FB2C07422400DF2832 /* emu2413_state.cpp */,
+				952CF6FC2C07422400DF2832 /* emu2413_state.h */,
+				952CF6FD2C07422400DF2832 /* emu2413.cpp */,
+				952CF6FE2C07422400DF2832 /* emu2413.h */,
+				952CF6FF2C07422400DF2832 /* Multi_Buffer.cpp */,
+				952CF7002C07422400DF2832 /* Multi_Buffer.h */,
+				952CF7012C07422400DF2832 /* Nes_Apu.cpp */,
+				952CF7022C07422400DF2832 /* Nes_Apu.h */,
+				952CF7032C07422400DF2832 /* Nes_Buffer.cpp */,
+				952CF7042C07422400DF2832 /* Nes_Buffer.h */,
+				952CF7052C07422400DF2832 /* Nes_Cart.cpp */,
+				952CF7062C07422400DF2832 /* Nes_Cart.h */,
+				952CF7072C07422400DF2832 /* Nes_Core.cpp */,
+				952CF7082C07422400DF2832 /* Nes_Core.h */,
+				952CF7092C07422400DF2832 /* nes_cpu_io.h */,
+				952CF70A2C07422400DF2832 /* Nes_Cpu.cpp */,
+				952CF70B2C07422400DF2832 /* Nes_Cpu.h */,
+				952CF70C2C07422400DF2832 /* nes_data.cpp */,
+				952CF70D2C07422400DF2832 /* nes_data.h */,
+				952CF70E2C07422400DF2832 /* Nes_Effects_Buffer.cpp */,
+				952CF70F2C07422400DF2832 /* Nes_Effects_Buffer.h */,
+				952CF7102C07422400DF2832 /* Nes_Emu.cpp */,
+				952CF7112C07422400DF2832 /* Nes_Emu.h */,
+				952CF7122C07422400DF2832 /* Nes_File.cpp */,
+				952CF7132C07422400DF2832 /* Nes_File.h */,
+				952CF7142C07422400DF2832 /* Nes_Fme7_Apu.cpp */,
+				952CF7152C07422400DF2832 /* Nes_Fme7_Apu.h */,
+				952CF7162C07422400DF2832 /* Nes_Mapper.cpp */,
+				952CF7172C07422400DF2832 /* Nes_Mapper.h */,
+				952CF7182C07422400DF2832 /* Nes_Namco_Apu.cpp */,
+				952CF7192C07422400DF2832 /* Nes_Namco_Apu.h */,
+				952CF71A2C07422400DF2832 /* nes_ntsc_config.h */,
+				952CF71B2C07422400DF2832 /* nes_ntsc_impl.h */,
+				952CF71C2C07422400DF2832 /* nes_ntsc.cpp */,
+				952CF71D2C07422400DF2832 /* nes_ntsc.h */,
+				952CF71E2C07422400DF2832 /* Nes_Oscs.cpp */,
+				952CF71F2C07422400DF2832 /* Nes_Oscs.h */,
+				952CF7202C07422400DF2832 /* Nes_Ppu_Bg.h */,
+				952CF7212C07422400DF2832 /* Nes_Ppu_Impl.cpp */,
+				952CF7222C07422400DF2832 /* Nes_Ppu_Impl.h */,
+				952CF7232C07422400DF2832 /* Nes_Ppu_Rendering.cpp */,
+				952CF7242C07422400DF2832 /* Nes_Ppu_Rendering.h */,
+				952CF7252C07422400DF2832 /* Nes_Ppu_Sprites.h */,
+				952CF7262C07422400DF2832 /* Nes_Ppu.cpp */,
+				952CF7272C07422400DF2832 /* Nes_Ppu.h */,
+				952CF7282C07422400DF2832 /* Nes_State.cpp */,
+				952CF7292C07422400DF2832 /* Nes_State.h */,
+				952CF72A2C07422400DF2832 /* nes_util.cpp */,
+				952CF72B2C07422400DF2832 /* nes_util.h */,
+				952CF72C2C07422400DF2832 /* Nes_Vrc6_Apu.cpp */,
+				952CF72D2C07422400DF2832 /* Nes_Vrc6_Apu.h */,
+				952CF72E2C07422400DF2832 /* Nes_Vrc7.cpp */,
+				952CF72F2C07422400DF2832 /* Nes_Vrc7.h */,
+			);
+			path = nes_emu;
+			sourceTree = "<group>";
+		};
+		952CF7382C07422400DF2832 /* QuickNES_Core */ = {
+			isa = PBXGroup;
+			children = (
+				952CF6952C07422400DF2832 /* .github */,
+				952CF6A42C07422400DF2832 /* intl */,
+				952CF6A72C07422400DF2832 /* jni */,
+				952CF6B42C07422400DF2832 /* libretro */,
+				952CF7302C07422400DF2832 /* nes_emu */,
+				952CF7312C07422400DF2832 /* .gitignore */,
+				952CF7322C07422400DF2832 /* .gitlab-ci.yml */,
+				952CF7332C07422400DF2832 /* .travis.yml */,
+				952CF7342C07422400DF2832 /* LICENSE */,
+				952CF7352C07422400DF2832 /* link.T */,
+				952CF7362C07422400DF2832 /* Makefile */,
+				952CF7372C07422400DF2832 /* Makefile.common */,
+			);
+			path = QuickNES_Core;
+			sourceTree = "<group>";
+		};
 		957081782C05E9F500217B82 = {
 			isa = PBXGroup;
 			children = (
 				957081842C05E9F500217B82 /* ArcadiaNESCore */,
 				957081902C05E9F600217B82 /* ArcadiaNESCoreTests */,
 				952CF2622C07151200DF2832 /* LibretroNestopia */,
+				952CF6892C0741A600DF2832 /* LibretroQuickNES */,
 				957081832C05E9F500217B82 /* Products */,
 				952CF26C2C07182400DF2832 /* Frameworks */,
 			);
@@ -2010,6 +2488,7 @@
 				957081822C05E9F500217B82 /* ArcadiaNESCore.framework */,
 				9570818C2C05E9F600217B82 /* ArcadiaNESCoreTests.xctest */,
 				952CF2612C07151200DF2832 /* libLibretroNestopia.a */,
+				952CF6882C0741A600DF2832 /* libLibretroQuickNES.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2066,6 +2545,23 @@
 			productReference = 952CF2612C07151200DF2832 /* libLibretroNestopia.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		952CF6872C0741A600DF2832 /* LibretroQuickNES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 952CF6902C0741A600DF2832 /* Build configuration list for PBXNativeTarget "LibretroQuickNES" */;
+			buildPhases = (
+				952CF6842C0741A600DF2832 /* Sources */,
+				952CF6852C0741A600DF2832 /* Frameworks */,
+				952CF6862C0741A600DF2832 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibretroQuickNES;
+			productName = LibretroQuickNES;
+			productReference = 952CF6882C0741A600DF2832 /* libLibretroQuickNES.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		957081812C05E9F500217B82 /* ArcadiaNESCore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 957081962C05E9F600217B82 /* Build configuration list for PBXNativeTarget "ArcadiaNESCore" */;
@@ -2079,6 +2575,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				952CF75A2C07524A00DF2832 /* PBXTargetDependency */,
 			);
 			name = ArcadiaNESCore;
 			productName = ArcadiaNESCore;
@@ -2116,6 +2613,9 @@
 					952CF2602C07151200DF2832 = {
 						CreatedOnToolsVersion = 15.4;
 					};
+					952CF6872C0741A600DF2832 = {
+						CreatedOnToolsVersion = 15.4;
+					};
 					957081812C05E9F500217B82 = {
 						CreatedOnToolsVersion = 15.4;
 						LastSwiftMigration = 1540;
@@ -2141,6 +2641,7 @@
 				957081812C05E9F500217B82 /* ArcadiaNESCore */,
 				9570818B2C05E9F600217B82 /* ArcadiaNESCoreTests */,
 				952CF2602C07151200DF2832 /* LibretroNestopia */,
+				952CF6872C0741A600DF2832 /* LibretroQuickNES */,
 			);
 		};
 /* End PBXProject section */
@@ -2471,6 +2972,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		952CF6842C0741A600DF2832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952CF73B2C07422400DF2832 /* apu_state.cpp in Sources */,
+				952CF7512C07422400DF2832 /* Nes_Ppu_Rendering.cpp in Sources */,
+				952CF7392C07422400DF2832 /* libretro.cpp in Sources */,
+				952CF74D2C07422400DF2832 /* Nes_Namco_Apu.cpp in Sources */,
+				952CF74B2C07422400DF2832 /* Nes_Fme7_Apu.cpp in Sources */,
+				952CF7402C07422400DF2832 /* emu2413.cpp in Sources */,
+				952CF7572C07422400DF2832 /* Makefile in Sources */,
+				952CF7452C07422400DF2832 /* Nes_Core.cpp in Sources */,
+				952CF73D2C07422400DF2832 /* Data_Reader.cpp in Sources */,
+				952CF7532C07422400DF2832 /* Nes_State.cpp in Sources */,
+				952CF7442C07422400DF2832 /* Nes_Cart.cpp in Sources */,
+				952CF7492C07422400DF2832 /* Nes_Emu.cpp in Sources */,
+				952CF74E2C07422400DF2832 /* nes_ntsc.cpp in Sources */,
+				952CF7462C07422400DF2832 /* Nes_Cpu.cpp in Sources */,
+				952CF73F2C07422400DF2832 /* emu2413_state.cpp in Sources */,
+				952CF7552C07422400DF2832 /* Nes_Vrc6_Apu.cpp in Sources */,
+				952CF74A2C07422400DF2832 /* Nes_File.cpp in Sources */,
+				952CF74C2C07422400DF2832 /* Nes_Mapper.cpp in Sources */,
+				952CF7422C07422400DF2832 /* Nes_Apu.cpp in Sources */,
+				952CF7542C07422400DF2832 /* nes_util.cpp in Sources */,
+				952CF73C2C07422400DF2832 /* Blip_Buffer.cpp in Sources */,
+				952CF7482C07422400DF2832 /* Nes_Effects_Buffer.cpp in Sources */,
+				952CF73E2C07422400DF2832 /* Effects_Buffer.cpp in Sources */,
+				952CF74F2C07422400DF2832 /* Nes_Oscs.cpp in Sources */,
+				952CF7522C07422400DF2832 /* Nes_Ppu.cpp in Sources */,
+				952CF7412C07422400DF2832 /* Multi_Buffer.cpp in Sources */,
+				952CF7472C07422400DF2832 /* nes_data.cpp in Sources */,
+				952CF73A2C07422400DF2832 /* abstract_file.cpp in Sources */,
+				952CF7502C07422400DF2832 /* Nes_Ppu_Impl.cpp in Sources */,
+				952CF7562C07422400DF2832 /* Nes_Vrc7.cpp in Sources */,
+				952CF7432C07422400DF2832 /* Nes_Buffer.cpp in Sources */,
+				952CF68C2C0741A600DF2832 /* LibretroQuickNES.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9570817E2C05E9F500217B82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2492,6 +3032,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		952CF75A2C07524A00DF2832 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 952CF6872C0741A600DF2832 /* LibretroQuickNES */;
+			targetProxy = 952CF7592C07524A00DF2832 /* PBXContainerItemProxy */;
+		};
 		9570818F2C05E9F600217B82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 957081812C05E9F500217B82 /* ArcadiaNESCore */;
@@ -2537,6 +3082,43 @@
 					"-DNST_NO_ZLIB",
 				);
 				OTHER_LDFLAGS = "-lc++";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		952CF68E2C0741A600DF2832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32DR4Q2NF7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				OTHER_CFLAGS = "-DHAVE_NO_LANGEXTRA";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		952CF68F2C0741A600DF2832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32DR4Q2NF7;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				OTHER_CFLAGS = "-DHAVE_NO_LANGEXTRA";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -2806,6 +3388,15 @@
 			buildConfigurations = (
 				952CF2672C07151200DF2832 /* Debug */,
 				952CF2682C07151200DF2832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		952CF6902C0741A600DF2832 /* Build configuration list for PBXNativeTarget "LibretroQuickNES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				952CF68E2C0741A600DF2832 /* Debug */,
+				952CF68F2C0741A600DF2832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
