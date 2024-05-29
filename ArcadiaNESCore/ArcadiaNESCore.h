@@ -14,5 +14,4 @@ FOUNDATION_EXPORT double ArcadiaNESCoreVersionNumber;
 FOUNDATION_EXPORT const unsigned char ArcadiaNESCoreVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <ArcadiaNESCore/PublicHeader.h>
-
-
+#import <ArcadiaNESCore/NESCore.h>

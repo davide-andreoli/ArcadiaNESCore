@@ -1,0 +1,3 @@
+[submodule "LibretroNestopia/nestopia"]
+	path = LibretroNestopia/nestopia
+	url = https://github.com/libretro/nestopia.git
