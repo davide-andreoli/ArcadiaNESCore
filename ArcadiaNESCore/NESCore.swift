@@ -10,6 +10,7 @@ import ArcadiaCore
 
 @Observable public class ArcadiaNES: ArcadiaCoreProtocol {
     
+    
     public typealias ArcadiaCoreType = ArcadiaNES
     
     public var paused = false
@@ -18,6 +19,7 @@ import ArcadiaCore
     public var loadedGame: URL? = nil
     public var audioVideoInfo: retro_system_av_info = retro_system_av_info(geometry: retro_game_geometry(base_width: 256, base_height: 240, max_width: 602, max_height: 240, aspect_ratio: 1.2190477), timing: retro_system_timing(fps: 60.0, sample_rate: 48000.0))
     public var initialSaveRamSnapshot: [UInt8]? = nil
+    public var currentSaveRamSnapshot: [UInt32 : [UInt8]]? = [:]
     
     public init() {
     }

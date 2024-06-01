@@ -44,7 +44,6 @@
 		952CF7542C07422400DF2832 /* nes_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF72A2C07422400DF2832 /* nes_util.cpp */; };
 		952CF7552C07422400DF2832 /* Nes_Vrc6_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF72C2C07422400DF2832 /* Nes_Vrc6_Apu.cpp */; };
 		952CF7562C07422400DF2832 /* Nes_Vrc7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952CF72E2C07422400DF2832 /* Nes_Vrc7.cpp */; };
-		952CF7572C07422400DF2832 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 952CF7362C07422400DF2832 /* Makefile */; };
 		952CF7582C07524A00DF2832 /* libLibretroQuickNES.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 952CF6882C0741A600DF2832 /* libLibretroQuickNES.a */; };
 		957081872C05E9F500217B82 /* ArcadiaNESCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = 957081862C05E9F500217B82 /* ArcadiaNESCore.docc */; };
 		9570818D2C05E9F600217B82 /* ArcadiaNESCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957081822C05E9F500217B82 /* ArcadiaNESCore.framework */; };
@@ -742,7 +741,6 @@
 				952CF74D2C07422400DF2832 /* Nes_Namco_Apu.cpp in Sources */,
 				952CF74B2C07422400DF2832 /* Nes_Fme7_Apu.cpp in Sources */,
 				952CF7402C07422400DF2832 /* emu2413.cpp in Sources */,
-				952CF7572C07422400DF2832 /* Makefile in Sources */,
 				952CF7452C07422400DF2832 /* Nes_Core.cpp in Sources */,
 				952CF73D2C07422400DF2832 /* Data_Reader.cpp in Sources */,
 				952CF7532C07422400DF2832 /* Nes_State.cpp in Sources */,
@@ -812,7 +810,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32DR4Q2NF7;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				OTHER_CFLAGS = "-DHAVE_NO_LANGEXTRA";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -820,6 +818,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
 			};
 			name = Debug;
 		};
@@ -830,7 +829,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 32DR4Q2NF7;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				OTHER_CFLAGS = "-DHAVE_NO_LANGEXTRA";
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -838,6 +837,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 17.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
