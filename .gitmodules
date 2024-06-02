@@ -1,3 +1,6 @@
 [submodule "LibretroQuickNES/QuickNES_Core"]
 	path = LibretroQuickNES/QuickNES_Core
 	url = https://github.com/libretro/QuickNES_Core.git
+[submodule "LibretroQuickNESFramework/QuickNES_Core"]
+	path = LibretroQuickNESFramework/QuickNES_Core
+	url = https://github.com/libretro/QuickNES_Core
