@@ -4,3 +4,6 @@
 [submodule "LibretroQuickNESFramework/QuickNES_Core"]
 	path = LibretroQuickNESFramework/QuickNES_Core
 	url = https://github.com/libretro/QuickNES_Core
+[submodule "LibretroNestopia/nestopia"]
+	path = LibretroNestopia/nestopia
+	url = https://github.com/libretro/nestopia.git
