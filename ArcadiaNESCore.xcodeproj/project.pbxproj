@@ -7,162 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		952C3A872C0CD32800DF2832 /* LibretroQuickNESFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 952C3A862C0CD32800DF2832 /* LibretroQuickNESFramework.docc */; };
-		952C3A8D2C0CD32900DF2832 /* LibretroQuickNESFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C3A832C0CD32800DF2832 /* LibretroQuickNESFramework.framework */; };
-		952C3A922C0CD32900DF2832 /* LibretroQuickNESFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 952C3A912C0CD32900DF2832 /* LibretroQuickNESFrameworkTests.m */; };
-		952C3A932C0CD32900DF2832 /* LibretroQuickNESFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3A852C0CD32800DF2832 /* LibretroQuickNESFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		952C3B422C0CD3D100DF2832 /* compilation.yml in Resources */ = {isa = PBXBuildFile; fileRef = 952C3A9A2C0CD3D100DF2832 /* compilation.yml */; };
-		952C3B432C0CD3D100DF2832 /* crowdin_prep.yml in Resources */ = {isa = PBXBuildFile; fileRef = 952C3A9B2C0CD3D100DF2832 /* crowdin_prep.yml */; };
-		952C3B442C0CD3D100DF2832 /* crowdin_translate.yml in Resources */ = {isa = PBXBuildFile; fileRef = 952C3A9C2C0CD3D100DF2832 /* crowdin_translate.yml */; };
-		952C3B462C0CD3D100DF2832 /* activate.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AA02C0CD3D100DF2832 /* activate.py */; };
-		952C3B472C0CD3D100DF2832 /* core_option_regex.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AA12C0CD3D100DF2832 /* core_option_regex.py */; };
-		952C3B482C0CD3D100DF2832 /* core_option_translation.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AA22C0CD3D100DF2832 /* core_option_translation.py */; };
-		952C3B492C0CD3D200DF2832 /* crowdin_prep.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AA32C0CD3D100DF2832 /* crowdin_prep.py */; };
-		952C3B4A2C0CD3D200DF2832 /* crowdin_source_upload.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AA42C0CD3D100DF2832 /* crowdin_source_upload.py */; };
-		952C3B4B2C0CD3D200DF2832 /* crowdin_translate.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AA52C0CD3D100DF2832 /* crowdin_translate.py */; };
-		952C3B4C2C0CD3D200DF2832 /* crowdin_translation_download.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AA62C0CD3D100DF2832 /* crowdin_translation_download.py */; };
-		952C3B4D2C0CD3D200DF2832 /* crowdin.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AA72C0CD3D100DF2832 /* crowdin.yaml */; };
-		952C3B4E2C0CD3D200DF2832 /* download_workflow.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AA82C0CD3D100DF2832 /* download_workflow.py */; };
-		952C3B4F2C0CD3D200DF2832 /* initial_sync.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AA92C0CD3D100DF2832 /* initial_sync.py */; };
-		952C3B502C0CD3D200DF2832 /* remove_initial_cycle.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AAA2C0CD3D100DF2832 /* remove_initial_cycle.py */; };
-		952C3B512C0CD3D200DF2832 /* upload_workflow.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AAB2C0CD3D100DF2832 /* upload_workflow.py */; };
-		952C3B522C0CD3D200DF2832 /* v1_to_v2_converter.py in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AAC2C0CD3D100DF2832 /* v1_to_v2_converter.py */; };
-		952C3B532C0CD3D200DF2832 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AAE2C0CD3D100DF2832 /* Android.mk */; };
-		952C3B542C0CD3D200DF2832 /* Application.mk in Resources */ = {isa = PBXBuildFile; fileRef = 952C3AAF2C0CD3D100DF2832 /* Application.mk */; };
-		952C3B562C0CD3D200DF2832 /* msvc.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AB32C0CD3D100DF2832 /* msvc.h */; };
-		952C3B572C0CD3D200DF2832 /* libretro_gskit_ps2.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AB52C0CD3D100DF2832 /* libretro_gskit_ps2.h */; };
-		952C3B582C0CD3D200DF2832 /* libretro.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AB62C0CD3D100DF2832 /* libretro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		952C3B592C0CD3D200DF2832 /* retro_inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AB72C0CD3D100DF2832 /* retro_inline.h */; };
-		952C3B5A2C0CD3D200DF2832 /* libretro_core_options_intl.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ABA2C0CD3D100DF2832 /* libretro_core_options_intl.h */; };
-		952C3B5B2C0CD3D200DF2832 /* libretro_core_options.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ABB2C0CD3D100DF2832 /* libretro_core_options.h */; };
-		952C3B5C2C0CD3D200DF2832 /* libretro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3ABC2C0CD3D100DF2832 /* libretro.cpp */; };
-		952C3B5D2C0CD3D200DF2832 /* mapper000.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ABE2C0CD3D100DF2832 /* mapper000.hpp */; };
-		952C3B5E2C0CD3D200DF2832 /* mapper001.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ABF2C0CD3D100DF2832 /* mapper001.hpp */; };
-		952C3B5F2C0CD3D200DF2832 /* mapper002.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AC02C0CD3D100DF2832 /* mapper002.hpp */; };
-		952C3B602C0CD3D200DF2832 /* mapper003.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AC12C0CD3D100DF2832 /* mapper003.hpp */; };
-		952C3B612C0CD3D200DF2832 /* mapper004.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AC22C0CD3D100DF2832 /* mapper004.hpp */; };
-		952C3B622C0CD3D200DF2832 /* mapper005.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AC32C0CD3D100DF2832 /* mapper005.hpp */; };
-		952C3B632C0CD3D200DF2832 /* mapper007.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AC42C0CD3D100DF2832 /* mapper007.hpp */; };
-		952C3B642C0CD3D200DF2832 /* mapper009.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AC52C0CD3D100DF2832 /* mapper009.hpp */; };
-		952C3B652C0CD3D200DF2832 /* mapper010.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AC62C0CD3D100DF2832 /* mapper010.hpp */; };
-		952C3B662C0CD3D200DF2832 /* mapper011.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AC72C0CD3D100DF2832 /* mapper011.hpp */; };
-		952C3B672C0CD3D200DF2832 /* mapper015.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AC82C0CD3D100DF2832 /* mapper015.hpp */; };
-		952C3B682C0CD3D200DF2832 /* mapper019.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AC92C0CD3D100DF2832 /* mapper019.hpp */; };
-		952C3B692C0CD3D200DF2832 /* mapper021.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ACA2C0CD3D100DF2832 /* mapper021.hpp */; };
-		952C3B6A2C0CD3D200DF2832 /* mapper022.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ACB2C0CD3D100DF2832 /* mapper022.hpp */; };
-		952C3B6B2C0CD3D200DF2832 /* mapper023.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ACC2C0CD3D100DF2832 /* mapper023.hpp */; };
-		952C3B6C2C0CD3D200DF2832 /* mapper024.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ACD2C0CD3D100DF2832 /* mapper024.hpp */; };
-		952C3B6D2C0CD3D200DF2832 /* mapper025.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ACE2C0CD3D100DF2832 /* mapper025.hpp */; };
-		952C3B6E2C0CD3D200DF2832 /* mapper026.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ACF2C0CD3D100DF2832 /* mapper026.hpp */; };
-		952C3B6F2C0CD3D200DF2832 /* mapper030.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AD02C0CD3D100DF2832 /* mapper030.hpp */; };
-		952C3B702C0CD3D200DF2832 /* mapper032.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AD12C0CD3D100DF2832 /* mapper032.hpp */; };
-		952C3B712C0CD3D200DF2832 /* mapper033.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AD22C0CD3D100DF2832 /* mapper033.hpp */; };
-		952C3B722C0CD3D200DF2832 /* mapper034.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AD32C0CD3D100DF2832 /* mapper034.hpp */; };
-		952C3B732C0CD3D200DF2832 /* mapper060.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AD42C0CD3D100DF2832 /* mapper060.hpp */; };
-		952C3B742C0CD3D200DF2832 /* mapper066.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AD52C0CD3D100DF2832 /* mapper066.hpp */; };
-		952C3B752C0CD3D200DF2832 /* mapper069.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AD62C0CD3D100DF2832 /* mapper069.hpp */; };
-		952C3B762C0CD3D200DF2832 /* mapper070.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AD72C0CD3D100DF2832 /* mapper070.hpp */; };
-		952C3B772C0CD3D200DF2832 /* mapper071.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AD82C0CD3D100DF2832 /* mapper071.hpp */; };
-		952C3B782C0CD3D200DF2832 /* mapper073.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AD92C0CD3D100DF2832 /* mapper073.hpp */; };
-		952C3B792C0CD3D200DF2832 /* mapper075.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ADA2C0CD3D100DF2832 /* mapper075.hpp */; };
-		952C3B7A2C0CD3D200DF2832 /* mapper078.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ADB2C0CD3D100DF2832 /* mapper078.hpp */; };
-		952C3B7B2C0CD3D200DF2832 /* mapper079.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ADC2C0CD3D100DF2832 /* mapper079.hpp */; };
-		952C3B7C2C0CD3D200DF2832 /* mapper085.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ADD2C0CD3D100DF2832 /* mapper085.hpp */; };
-		952C3B7D2C0CD3D200DF2832 /* mapper086.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ADE2C0CD3D100DF2832 /* mapper086.hpp */; };
-		952C3B7E2C0CD3D200DF2832 /* mapper087.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3ADF2C0CD3D100DF2832 /* mapper087.hpp */; };
-		952C3B7F2C0CD3D200DF2832 /* mapper088.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AE02C0CD3D100DF2832 /* mapper088.hpp */; };
-		952C3B802C0CD3D300DF2832 /* mapper089.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AE12C0CD3D100DF2832 /* mapper089.hpp */; };
-		952C3B812C0CD3D300DF2832 /* mapper093.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AE22C0CD3D100DF2832 /* mapper093.hpp */; };
-		952C3B822C0CD3D300DF2832 /* mapper094.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AE32C0CD3D100DF2832 /* mapper094.hpp */; };
-		952C3B832C0CD3D300DF2832 /* mapper097.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AE42C0CD3D100DF2832 /* mapper097.hpp */; };
-		952C3B842C0CD3D300DF2832 /* mapper113.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AE52C0CD3D100DF2832 /* mapper113.hpp */; };
-		952C3B852C0CD3D300DF2832 /* mapper140.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AE62C0CD3D100DF2832 /* mapper140.hpp */; };
-		952C3B862C0CD3D300DF2832 /* mapper152.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AE72C0CD3D100DF2832 /* mapper152.hpp */; };
-		952C3B872C0CD3D300DF2832 /* mapper154.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AE82C0CD3D100DF2832 /* mapper154.hpp */; };
-		952C3B882C0CD3D300DF2832 /* mapper156.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AE92C0CD3D100DF2832 /* mapper156.hpp */; };
-		952C3B892C0CD3D300DF2832 /* mapper180.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AEA2C0CD3D100DF2832 /* mapper180.hpp */; };
-		952C3B8A2C0CD3D300DF2832 /* mapper184.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AEB2C0CD3D100DF2832 /* mapper184.hpp */; };
-		952C3B8B2C0CD3D300DF2832 /* mapper190.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AEC2C0CD3D100DF2832 /* mapper190.hpp */; };
-		952C3B8C2C0CD3D300DF2832 /* mapper193.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AED2C0CD3D100DF2832 /* mapper193.hpp */; };
-		952C3B8D2C0CD3D300DF2832 /* mapper206.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AEE2C0CD3D100DF2832 /* mapper206.hpp */; };
-		952C3B8E2C0CD3D300DF2832 /* mapper207.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AEF2C0CD3D100DF2832 /* mapper207.hpp */; };
-		952C3B8F2C0CD3D300DF2832 /* mapper232.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AF02C0CD3D100DF2832 /* mapper232.hpp */; };
-		952C3B902C0CD3D300DF2832 /* mapper240.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AF12C0CD3D100DF2832 /* mapper240.hpp */; };
-		952C3B912C0CD3D300DF2832 /* mapper241.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AF22C0CD3D100DF2832 /* mapper241.hpp */; };
-		952C3B922C0CD3D300DF2832 /* mapper244.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AF32C0CD3D100DF2832 /* mapper244.hpp */; };
-		952C3B932C0CD3D300DF2832 /* mapper246.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AF42C0CD3D100DF2832 /* mapper246.hpp */; };
-		952C3B942C0CD3D300DF2832 /* abstract_file.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3AF62C0CD3D100DF2832 /* abstract_file.cpp */; };
-		952C3B952C0CD3D300DF2832 /* abstract_file.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AF72C0CD3D100DF2832 /* abstract_file.h */; };
-		952C3B962C0CD3D300DF2832 /* apu_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3AF82C0CD3D100DF2832 /* apu_state.cpp */; };
-		952C3B972C0CD3D300DF2832 /* apu_state.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AF92C0CD3D100DF2832 /* apu_state.h */; };
-		952C3B982C0CD3D300DF2832 /* blargg_common.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AFA2C0CD3D100DF2832 /* blargg_common.h */; };
-		952C3B992C0CD3D300DF2832 /* blargg_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AFB2C0CD3D100DF2832 /* blargg_config.h */; };
-		952C3B9A2C0CD3D300DF2832 /* blargg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AFC2C0CD3D100DF2832 /* blargg_endian.h */; };
-		952C3B9B2C0CD3D300DF2832 /* blargg_source.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AFD2C0CD3D100DF2832 /* blargg_source.h */; };
-		952C3B9C2C0CD3D300DF2832 /* Blip_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3AFE2C0CD3D100DF2832 /* Blip_Buffer.cpp */; };
-		952C3B9D2C0CD3D300DF2832 /* Blip_Buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3AFF2C0CD3D100DF2832 /* Blip_Buffer.h */; };
-		952C3B9E2C0CD3D300DF2832 /* Data_Reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B002C0CD3D100DF2832 /* Data_Reader.cpp */; };
-		952C3B9F2C0CD3D300DF2832 /* Data_Reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B012C0CD3D100DF2832 /* Data_Reader.h */; };
-		952C3BA02C0CD3D300DF2832 /* Effects_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B022C0CD3D100DF2832 /* Effects_Buffer.cpp */; };
-		952C3BA12C0CD3D300DF2832 /* Effects_Buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B032C0CD3D100DF2832 /* Effects_Buffer.h */; };
-		952C3BA22C0CD3D300DF2832 /* emu2413_state.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B042C0CD3D100DF2832 /* emu2413_state.cpp */; };
-		952C3BA32C0CD3D300DF2832 /* emu2413_state.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B052C0CD3D100DF2832 /* emu2413_state.h */; };
-		952C3BA42C0CD3D300DF2832 /* emu2413.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B062C0CD3D100DF2832 /* emu2413.cpp */; };
-		952C3BA52C0CD3D300DF2832 /* emu2413.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B072C0CD3D100DF2832 /* emu2413.h */; };
-		952C3BA62C0CD3D300DF2832 /* Multi_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B082C0CD3D100DF2832 /* Multi_Buffer.cpp */; };
-		952C3BA72C0CD3D300DF2832 /* Multi_Buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B092C0CD3D100DF2832 /* Multi_Buffer.h */; };
-		952C3BA82C0CD3D300DF2832 /* Nes_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B0A2C0CD3D100DF2832 /* Nes_Apu.cpp */; };
-		952C3BA92C0CD3D300DF2832 /* Nes_Apu.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B0B2C0CD3D100DF2832 /* Nes_Apu.h */; };
-		952C3BAA2C0CD3D300DF2832 /* Nes_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B0C2C0CD3D100DF2832 /* Nes_Buffer.cpp */; };
-		952C3BAB2C0CD3D300DF2832 /* Nes_Buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B0D2C0CD3D100DF2832 /* Nes_Buffer.h */; };
-		952C3BAC2C0CD3D300DF2832 /* Nes_Cart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B0E2C0CD3D100DF2832 /* Nes_Cart.cpp */; };
-		952C3BAD2C0CD3D300DF2832 /* Nes_Cart.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B0F2C0CD3D100DF2832 /* Nes_Cart.h */; };
-		952C3BAE2C0CD3D300DF2832 /* Nes_Core.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B102C0CD3D100DF2832 /* Nes_Core.cpp */; };
-		952C3BAF2C0CD3D300DF2832 /* Nes_Core.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B112C0CD3D100DF2832 /* Nes_Core.h */; };
-		952C3BB02C0CD3D300DF2832 /* nes_cpu_io.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B122C0CD3D100DF2832 /* nes_cpu_io.h */; };
-		952C3BB12C0CD3D300DF2832 /* Nes_Cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B132C0CD3D100DF2832 /* Nes_Cpu.cpp */; };
-		952C3BB22C0CD3D300DF2832 /* Nes_Cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B142C0CD3D100DF2832 /* Nes_Cpu.h */; };
-		952C3BB32C0CD3D300DF2832 /* nes_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B152C0CD3D100DF2832 /* nes_data.cpp */; };
-		952C3BB42C0CD3D300DF2832 /* nes_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B162C0CD3D100DF2832 /* nes_data.h */; };
-		952C3BB52C0CD3D300DF2832 /* Nes_Effects_Buffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B172C0CD3D100DF2832 /* Nes_Effects_Buffer.cpp */; };
-		952C3BB62C0CD3D300DF2832 /* Nes_Effects_Buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B182C0CD3D100DF2832 /* Nes_Effects_Buffer.h */; };
-		952C3BB72C0CD3D300DF2832 /* Nes_Emu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B192C0CD3D100DF2832 /* Nes_Emu.cpp */; };
-		952C3BB82C0CD3D300DF2832 /* Nes_Emu.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B1A2C0CD3D100DF2832 /* Nes_Emu.h */; };
-		952C3BB92C0CD3D300DF2832 /* Nes_File.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B1B2C0CD3D100DF2832 /* Nes_File.cpp */; };
-		952C3BBA2C0CD3D300DF2832 /* Nes_File.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B1C2C0CD3D100DF2832 /* Nes_File.h */; };
-		952C3BBB2C0CD3D300DF2832 /* Nes_Fme7_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B1D2C0CD3D100DF2832 /* Nes_Fme7_Apu.cpp */; };
-		952C3BBC2C0CD3D400DF2832 /* Nes_Fme7_Apu.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B1E2C0CD3D100DF2832 /* Nes_Fme7_Apu.h */; };
-		952C3BBD2C0CD3D400DF2832 /* Nes_Mapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B1F2C0CD3D100DF2832 /* Nes_Mapper.cpp */; };
-		952C3BBE2C0CD3D400DF2832 /* Nes_Mapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B202C0CD3D100DF2832 /* Nes_Mapper.h */; };
-		952C3BBF2C0CD3D400DF2832 /* Nes_Namco_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B212C0CD3D100DF2832 /* Nes_Namco_Apu.cpp */; };
-		952C3BC02C0CD3D400DF2832 /* Nes_Namco_Apu.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B222C0CD3D100DF2832 /* Nes_Namco_Apu.h */; };
-		952C3BC12C0CD3D400DF2832 /* nes_ntsc_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B232C0CD3D100DF2832 /* nes_ntsc_config.h */; };
-		952C3BC22C0CD3D400DF2832 /* nes_ntsc_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B242C0CD3D100DF2832 /* nes_ntsc_impl.h */; };
-		952C3BC32C0CD3D400DF2832 /* nes_ntsc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B252C0CD3D100DF2832 /* nes_ntsc.cpp */; };
-		952C3BC42C0CD3D400DF2832 /* nes_ntsc.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B262C0CD3D100DF2832 /* nes_ntsc.h */; };
-		952C3BC52C0CD3D400DF2832 /* Nes_Oscs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B272C0CD3D100DF2832 /* Nes_Oscs.cpp */; };
-		952C3BC62C0CD3D400DF2832 /* Nes_Oscs.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B282C0CD3D100DF2832 /* Nes_Oscs.h */; };
-		952C3BC72C0CD3D400DF2832 /* Nes_Ppu_Bg.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B292C0CD3D100DF2832 /* Nes_Ppu_Bg.h */; };
-		952C3BC82C0CD3D400DF2832 /* Nes_Ppu_Impl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B2A2C0CD3D100DF2832 /* Nes_Ppu_Impl.cpp */; };
-		952C3BC92C0CD3D400DF2832 /* Nes_Ppu_Impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B2B2C0CD3D100DF2832 /* Nes_Ppu_Impl.h */; };
-		952C3BCA2C0CD3D400DF2832 /* Nes_Ppu_Rendering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B2C2C0CD3D100DF2832 /* Nes_Ppu_Rendering.cpp */; };
-		952C3BCB2C0CD3D400DF2832 /* Nes_Ppu_Rendering.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B2D2C0CD3D100DF2832 /* Nes_Ppu_Rendering.h */; };
-		952C3BCC2C0CD3D400DF2832 /* Nes_Ppu_Sprites.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B2E2C0CD3D100DF2832 /* Nes_Ppu_Sprites.h */; };
-		952C3BCD2C0CD3D400DF2832 /* Nes_Ppu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B2F2C0CD3D100DF2832 /* Nes_Ppu.cpp */; };
-		952C3BCE2C0CD3D400DF2832 /* Nes_Ppu.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B302C0CD3D100DF2832 /* Nes_Ppu.h */; };
-		952C3BCF2C0CD3D400DF2832 /* Nes_State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B312C0CD3D100DF2832 /* Nes_State.cpp */; };
-		952C3BD02C0CD3D400DF2832 /* Nes_State.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B322C0CD3D100DF2832 /* Nes_State.h */; };
-		952C3BD12C0CD3D400DF2832 /* nes_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B332C0CD3D100DF2832 /* nes_util.cpp */; };
-		952C3BD22C0CD3D400DF2832 /* nes_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B342C0CD3D100DF2832 /* nes_util.h */; };
-		952C3BD32C0CD3D400DF2832 /* Nes_Vrc6_Apu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B352C0CD3D100DF2832 /* Nes_Vrc6_Apu.cpp */; };
-		952C3BD42C0CD3D400DF2832 /* Nes_Vrc6_Apu.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B362C0CD3D100DF2832 /* Nes_Vrc6_Apu.h */; };
-		952C3BD52C0CD3D400DF2832 /* Nes_Vrc7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B372C0CD3D100DF2832 /* Nes_Vrc7.cpp */; };
-		952C3BD62C0CD3D400DF2832 /* Nes_Vrc7.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3B382C0CD3D100DF2832 /* Nes_Vrc7.h */; };
-		952C3BD92C0CD3D400DF2832 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 952C3B3C2C0CD3D100DF2832 /* .travis.yml */; };
-		952C3BDA2C0CD3D400DF2832 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 952C3B3D2C0CD3D100DF2832 /* LICENSE */; };
-		952C3BDB2C0CD3D400DF2832 /* link.T in Resources */ = {isa = PBXBuildFile; fileRef = 952C3B3E2C0CD3D100DF2832 /* link.T */; };
-		952C3BDC2C0CD3D400DF2832 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 952C3B3F2C0CD3D100DF2832 /* Makefile */; };
-		952C3BDD2C0CD3D400DF2832 /* Makefile.common in Resources */ = {isa = PBXBuildFile; fileRef = 952C3B402C0CD3D100DF2832 /* Makefile.common */; };
 		952CF26B2C07180200DF2832 /* NESCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CF26A2C07180200DF2832 /* NESCore.swift */; };
 		952CF2722C071D9500DF2832 /* NESCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 952CF2712C071D9500DF2832 /* NESCore.m */; };
 		952CF2732C071DE500DF2832 /* NESCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 952CF26E2C07195700DF2832 /* NESCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -887,13 +731,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		952C3A8E2C0CD32900DF2832 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 957081792C05E9F500217B82 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 952C3A822C0CD32800DF2832;
-			remoteInfo = LibretroQuickNESFramework;
-		};
 		9570818E2C05E9F600217B82 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 957081792C05E9F500217B82 /* Project object */;
@@ -933,167 +770,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		952C3A832C0CD32800DF2832 /* LibretroQuickNESFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibretroQuickNESFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		952C3A852C0CD32800DF2832 /* LibretroQuickNESFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibretroQuickNESFramework.h; sourceTree = "<group>"; };
-		952C3A862C0CD32800DF2832 /* LibretroQuickNESFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LibretroQuickNESFramework.docc; sourceTree = "<group>"; };
-		952C3A8C2C0CD32900DF2832 /* LibretroQuickNESFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibretroQuickNESFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		952C3A912C0CD32900DF2832 /* LibretroQuickNESFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibretroQuickNESFrameworkTests.m; sourceTree = "<group>"; };
-		952C3A9A2C0CD3D100DF2832 /* compilation.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = compilation.yml; sourceTree = "<group>"; };
-		952C3A9B2C0CD3D100DF2832 /* crowdin_prep.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = crowdin_prep.yml; sourceTree = "<group>"; };
-		952C3A9C2C0CD3D100DF2832 /* crowdin_translate.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = crowdin_translate.yml; sourceTree = "<group>"; };
-		952C3A9F2C0CD3D100DF2832 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		952C3AA02C0CD3D100DF2832 /* activate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = activate.py; sourceTree = "<group>"; };
-		952C3AA12C0CD3D100DF2832 /* core_option_regex.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = core_option_regex.py; sourceTree = "<group>"; };
-		952C3AA22C0CD3D100DF2832 /* core_option_translation.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = core_option_translation.py; sourceTree = "<group>"; };
-		952C3AA32C0CD3D100DF2832 /* crowdin_prep.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = crowdin_prep.py; sourceTree = "<group>"; };
-		952C3AA42C0CD3D100DF2832 /* crowdin_source_upload.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = crowdin_source_upload.py; sourceTree = "<group>"; };
-		952C3AA52C0CD3D100DF2832 /* crowdin_translate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = crowdin_translate.py; sourceTree = "<group>"; };
-		952C3AA62C0CD3D100DF2832 /* crowdin_translation_download.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = crowdin_translation_download.py; sourceTree = "<group>"; };
-		952C3AA72C0CD3D100DF2832 /* crowdin.yaml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = crowdin.yaml; sourceTree = "<group>"; };
-		952C3AA82C0CD3D100DF2832 /* download_workflow.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = download_workflow.py; sourceTree = "<group>"; };
-		952C3AA92C0CD3D100DF2832 /* initial_sync.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = initial_sync.py; sourceTree = "<group>"; };
-		952C3AAA2C0CD3D100DF2832 /* remove_initial_cycle.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = remove_initial_cycle.py; sourceTree = "<group>"; };
-		952C3AAB2C0CD3D100DF2832 /* upload_workflow.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = upload_workflow.py; sourceTree = "<group>"; };
-		952C3AAC2C0CD3D100DF2832 /* v1_to_v2_converter.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = v1_to_v2_converter.py; sourceTree = "<group>"; };
-		952C3AAE2C0CD3D100DF2832 /* Android.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Android.mk; sourceTree = "<group>"; };
-		952C3AAF2C0CD3D100DF2832 /* Application.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Application.mk; sourceTree = "<group>"; };
-		952C3AB12C0CD3D100DF2832 /* stdint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdint.h; sourceTree = "<group>"; };
-		952C3AB32C0CD3D100DF2832 /* msvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msvc.h; sourceTree = "<group>"; };
-		952C3AB52C0CD3D100DF2832 /* libretro_gskit_ps2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libretro_gskit_ps2.h; sourceTree = "<group>"; };
-		952C3AB62C0CD3D100DF2832 /* libretro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libretro.h; sourceTree = "<group>"; };
-		952C3AB72C0CD3D100DF2832 /* retro_inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = retro_inline.h; sourceTree = "<group>"; };
-		952C3ABA2C0CD3D100DF2832 /* libretro_core_options_intl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libretro_core_options_intl.h; sourceTree = "<group>"; };
-		952C3ABB2C0CD3D100DF2832 /* libretro_core_options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libretro_core_options.h; sourceTree = "<group>"; };
-		952C3ABC2C0CD3D100DF2832 /* libretro.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = libretro.cpp; sourceTree = "<group>"; };
-		952C3ABE2C0CD3D100DF2832 /* mapper000.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper000.hpp; sourceTree = "<group>"; };
-		952C3ABF2C0CD3D100DF2832 /* mapper001.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper001.hpp; sourceTree = "<group>"; };
-		952C3AC02C0CD3D100DF2832 /* mapper002.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper002.hpp; sourceTree = "<group>"; };
-		952C3AC12C0CD3D100DF2832 /* mapper003.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper003.hpp; sourceTree = "<group>"; };
-		952C3AC22C0CD3D100DF2832 /* mapper004.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper004.hpp; sourceTree = "<group>"; };
-		952C3AC32C0CD3D100DF2832 /* mapper005.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper005.hpp; sourceTree = "<group>"; };
-		952C3AC42C0CD3D100DF2832 /* mapper007.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper007.hpp; sourceTree = "<group>"; };
-		952C3AC52C0CD3D100DF2832 /* mapper009.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper009.hpp; sourceTree = "<group>"; };
-		952C3AC62C0CD3D100DF2832 /* mapper010.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper010.hpp; sourceTree = "<group>"; };
-		952C3AC72C0CD3D100DF2832 /* mapper011.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper011.hpp; sourceTree = "<group>"; };
-		952C3AC82C0CD3D100DF2832 /* mapper015.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper015.hpp; sourceTree = "<group>"; };
-		952C3AC92C0CD3D100DF2832 /* mapper019.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper019.hpp; sourceTree = "<group>"; };
-		952C3ACA2C0CD3D100DF2832 /* mapper021.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper021.hpp; sourceTree = "<group>"; };
-		952C3ACB2C0CD3D100DF2832 /* mapper022.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper022.hpp; sourceTree = "<group>"; };
-		952C3ACC2C0CD3D100DF2832 /* mapper023.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper023.hpp; sourceTree = "<group>"; };
-		952C3ACD2C0CD3D100DF2832 /* mapper024.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper024.hpp; sourceTree = "<group>"; };
-		952C3ACE2C0CD3D100DF2832 /* mapper025.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper025.hpp; sourceTree = "<group>"; };
-		952C3ACF2C0CD3D100DF2832 /* mapper026.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper026.hpp; sourceTree = "<group>"; };
-		952C3AD02C0CD3D100DF2832 /* mapper030.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper030.hpp; sourceTree = "<group>"; };
-		952C3AD12C0CD3D100DF2832 /* mapper032.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper032.hpp; sourceTree = "<group>"; };
-		952C3AD22C0CD3D100DF2832 /* mapper033.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper033.hpp; sourceTree = "<group>"; };
-		952C3AD32C0CD3D100DF2832 /* mapper034.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper034.hpp; sourceTree = "<group>"; };
-		952C3AD42C0CD3D100DF2832 /* mapper060.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper060.hpp; sourceTree = "<group>"; };
-		952C3AD52C0CD3D100DF2832 /* mapper066.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper066.hpp; sourceTree = "<group>"; };
-		952C3AD62C0CD3D100DF2832 /* mapper069.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper069.hpp; sourceTree = "<group>"; };
-		952C3AD72C0CD3D100DF2832 /* mapper070.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper070.hpp; sourceTree = "<group>"; };
-		952C3AD82C0CD3D100DF2832 /* mapper071.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper071.hpp; sourceTree = "<group>"; };
-		952C3AD92C0CD3D100DF2832 /* mapper073.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper073.hpp; sourceTree = "<group>"; };
-		952C3ADA2C0CD3D100DF2832 /* mapper075.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper075.hpp; sourceTree = "<group>"; };
-		952C3ADB2C0CD3D100DF2832 /* mapper078.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper078.hpp; sourceTree = "<group>"; };
-		952C3ADC2C0CD3D100DF2832 /* mapper079.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper079.hpp; sourceTree = "<group>"; };
-		952C3ADD2C0CD3D100DF2832 /* mapper085.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper085.hpp; sourceTree = "<group>"; };
-		952C3ADE2C0CD3D100DF2832 /* mapper086.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper086.hpp; sourceTree = "<group>"; };
-		952C3ADF2C0CD3D100DF2832 /* mapper087.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper087.hpp; sourceTree = "<group>"; };
-		952C3AE02C0CD3D100DF2832 /* mapper088.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper088.hpp; sourceTree = "<group>"; };
-		952C3AE12C0CD3D100DF2832 /* mapper089.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper089.hpp; sourceTree = "<group>"; };
-		952C3AE22C0CD3D100DF2832 /* mapper093.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper093.hpp; sourceTree = "<group>"; };
-		952C3AE32C0CD3D100DF2832 /* mapper094.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper094.hpp; sourceTree = "<group>"; };
-		952C3AE42C0CD3D100DF2832 /* mapper097.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper097.hpp; sourceTree = "<group>"; };
-		952C3AE52C0CD3D100DF2832 /* mapper113.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper113.hpp; sourceTree = "<group>"; };
-		952C3AE62C0CD3D100DF2832 /* mapper140.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper140.hpp; sourceTree = "<group>"; };
-		952C3AE72C0CD3D100DF2832 /* mapper152.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper152.hpp; sourceTree = "<group>"; };
-		952C3AE82C0CD3D100DF2832 /* mapper154.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper154.hpp; sourceTree = "<group>"; };
-		952C3AE92C0CD3D100DF2832 /* mapper156.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper156.hpp; sourceTree = "<group>"; };
-		952C3AEA2C0CD3D100DF2832 /* mapper180.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper180.hpp; sourceTree = "<group>"; };
-		952C3AEB2C0CD3D100DF2832 /* mapper184.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper184.hpp; sourceTree = "<group>"; };
-		952C3AEC2C0CD3D100DF2832 /* mapper190.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper190.hpp; sourceTree = "<group>"; };
-		952C3AED2C0CD3D100DF2832 /* mapper193.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper193.hpp; sourceTree = "<group>"; };
-		952C3AEE2C0CD3D100DF2832 /* mapper206.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper206.hpp; sourceTree = "<group>"; };
-		952C3AEF2C0CD3D100DF2832 /* mapper207.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper207.hpp; sourceTree = "<group>"; };
-		952C3AF02C0CD3D100DF2832 /* mapper232.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper232.hpp; sourceTree = "<group>"; };
-		952C3AF12C0CD3D100DF2832 /* mapper240.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper240.hpp; sourceTree = "<group>"; };
-		952C3AF22C0CD3D100DF2832 /* mapper241.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper241.hpp; sourceTree = "<group>"; };
-		952C3AF32C0CD3D100DF2832 /* mapper244.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper244.hpp; sourceTree = "<group>"; };
-		952C3AF42C0CD3D100DF2832 /* mapper246.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mapper246.hpp; sourceTree = "<group>"; };
-		952C3AF62C0CD3D100DF2832 /* abstract_file.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = abstract_file.cpp; sourceTree = "<group>"; };
-		952C3AF72C0CD3D100DF2832 /* abstract_file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = abstract_file.h; sourceTree = "<group>"; };
-		952C3AF82C0CD3D100DF2832 /* apu_state.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = apu_state.cpp; sourceTree = "<group>"; };
-		952C3AF92C0CD3D100DF2832 /* apu_state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = apu_state.h; sourceTree = "<group>"; };
-		952C3AFA2C0CD3D100DF2832 /* blargg_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_common.h; sourceTree = "<group>"; };
-		952C3AFB2C0CD3D100DF2832 /* blargg_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_config.h; sourceTree = "<group>"; };
-		952C3AFC2C0CD3D100DF2832 /* blargg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_endian.h; sourceTree = "<group>"; };
-		952C3AFD2C0CD3D100DF2832 /* blargg_source.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blargg_source.h; sourceTree = "<group>"; };
-		952C3AFE2C0CD3D100DF2832 /* Blip_Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Blip_Buffer.cpp; sourceTree = "<group>"; };
-		952C3AFF2C0CD3D100DF2832 /* Blip_Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blip_Buffer.h; sourceTree = "<group>"; };
-		952C3B002C0CD3D100DF2832 /* Data_Reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Data_Reader.cpp; sourceTree = "<group>"; };
-		952C3B012C0CD3D100DF2832 /* Data_Reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Data_Reader.h; sourceTree = "<group>"; };
-		952C3B022C0CD3D100DF2832 /* Effects_Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Effects_Buffer.cpp; sourceTree = "<group>"; };
-		952C3B032C0CD3D100DF2832 /* Effects_Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Effects_Buffer.h; sourceTree = "<group>"; };
-		952C3B042C0CD3D100DF2832 /* emu2413_state.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emu2413_state.cpp; sourceTree = "<group>"; };
-		952C3B052C0CD3D100DF2832 /* emu2413_state.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emu2413_state.h; sourceTree = "<group>"; };
-		952C3B062C0CD3D100DF2832 /* emu2413.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = emu2413.cpp; sourceTree = "<group>"; };
-		952C3B072C0CD3D100DF2832 /* emu2413.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = emu2413.h; sourceTree = "<group>"; };
-		952C3B082C0CD3D100DF2832 /* Multi_Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Multi_Buffer.cpp; sourceTree = "<group>"; };
-		952C3B092C0CD3D100DF2832 /* Multi_Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Multi_Buffer.h; sourceTree = "<group>"; };
-		952C3B0A2C0CD3D100DF2832 /* Nes_Apu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Apu.cpp; sourceTree = "<group>"; };
-		952C3B0B2C0CD3D100DF2832 /* Nes_Apu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Apu.h; sourceTree = "<group>"; };
-		952C3B0C2C0CD3D100DF2832 /* Nes_Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Buffer.cpp; sourceTree = "<group>"; };
-		952C3B0D2C0CD3D100DF2832 /* Nes_Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Buffer.h; sourceTree = "<group>"; };
-		952C3B0E2C0CD3D100DF2832 /* Nes_Cart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Cart.cpp; sourceTree = "<group>"; };
-		952C3B0F2C0CD3D100DF2832 /* Nes_Cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Cart.h; sourceTree = "<group>"; };
-		952C3B102C0CD3D100DF2832 /* Nes_Core.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Core.cpp; sourceTree = "<group>"; };
-		952C3B112C0CD3D100DF2832 /* Nes_Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Core.h; sourceTree = "<group>"; };
-		952C3B122C0CD3D100DF2832 /* nes_cpu_io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_cpu_io.h; sourceTree = "<group>"; };
-		952C3B132C0CD3D100DF2832 /* Nes_Cpu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Cpu.cpp; sourceTree = "<group>"; };
-		952C3B142C0CD3D100DF2832 /* Nes_Cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Cpu.h; sourceTree = "<group>"; };
-		952C3B152C0CD3D100DF2832 /* nes_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nes_data.cpp; sourceTree = "<group>"; };
-		952C3B162C0CD3D100DF2832 /* nes_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_data.h; sourceTree = "<group>"; };
-		952C3B172C0CD3D100DF2832 /* Nes_Effects_Buffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Effects_Buffer.cpp; sourceTree = "<group>"; };
-		952C3B182C0CD3D100DF2832 /* Nes_Effects_Buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Effects_Buffer.h; sourceTree = "<group>"; };
-		952C3B192C0CD3D100DF2832 /* Nes_Emu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Emu.cpp; sourceTree = "<group>"; };
-		952C3B1A2C0CD3D100DF2832 /* Nes_Emu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Emu.h; sourceTree = "<group>"; };
-		952C3B1B2C0CD3D100DF2832 /* Nes_File.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_File.cpp; sourceTree = "<group>"; };
-		952C3B1C2C0CD3D100DF2832 /* Nes_File.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_File.h; sourceTree = "<group>"; };
-		952C3B1D2C0CD3D100DF2832 /* Nes_Fme7_Apu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Fme7_Apu.cpp; sourceTree = "<group>"; };
-		952C3B1E2C0CD3D100DF2832 /* Nes_Fme7_Apu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Fme7_Apu.h; sourceTree = "<group>"; };
-		952C3B1F2C0CD3D100DF2832 /* Nes_Mapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Mapper.cpp; sourceTree = "<group>"; };
-		952C3B202C0CD3D100DF2832 /* Nes_Mapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Mapper.h; sourceTree = "<group>"; };
-		952C3B212C0CD3D100DF2832 /* Nes_Namco_Apu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Namco_Apu.cpp; sourceTree = "<group>"; };
-		952C3B222C0CD3D100DF2832 /* Nes_Namco_Apu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Namco_Apu.h; sourceTree = "<group>"; };
-		952C3B232C0CD3D100DF2832 /* nes_ntsc_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_ntsc_config.h; sourceTree = "<group>"; };
-		952C3B242C0CD3D100DF2832 /* nes_ntsc_impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_ntsc_impl.h; sourceTree = "<group>"; };
-		952C3B252C0CD3D100DF2832 /* nes_ntsc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nes_ntsc.cpp; sourceTree = "<group>"; };
-		952C3B262C0CD3D100DF2832 /* nes_ntsc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_ntsc.h; sourceTree = "<group>"; };
-		952C3B272C0CD3D100DF2832 /* Nes_Oscs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Oscs.cpp; sourceTree = "<group>"; };
-		952C3B282C0CD3D100DF2832 /* Nes_Oscs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Oscs.h; sourceTree = "<group>"; };
-		952C3B292C0CD3D100DF2832 /* Nes_Ppu_Bg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Ppu_Bg.h; sourceTree = "<group>"; };
-		952C3B2A2C0CD3D100DF2832 /* Nes_Ppu_Impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Ppu_Impl.cpp; sourceTree = "<group>"; };
-		952C3B2B2C0CD3D100DF2832 /* Nes_Ppu_Impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Ppu_Impl.h; sourceTree = "<group>"; };
-		952C3B2C2C0CD3D100DF2832 /* Nes_Ppu_Rendering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Ppu_Rendering.cpp; sourceTree = "<group>"; };
-		952C3B2D2C0CD3D100DF2832 /* Nes_Ppu_Rendering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Ppu_Rendering.h; sourceTree = "<group>"; };
-		952C3B2E2C0CD3D100DF2832 /* Nes_Ppu_Sprites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Ppu_Sprites.h; sourceTree = "<group>"; };
-		952C3B2F2C0CD3D100DF2832 /* Nes_Ppu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Ppu.cpp; sourceTree = "<group>"; };
-		952C3B302C0CD3D100DF2832 /* Nes_Ppu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Ppu.h; sourceTree = "<group>"; };
-		952C3B312C0CD3D100DF2832 /* Nes_State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_State.cpp; sourceTree = "<group>"; };
-		952C3B322C0CD3D100DF2832 /* Nes_State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_State.h; sourceTree = "<group>"; };
-		952C3B332C0CD3D100DF2832 /* nes_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nes_util.cpp; sourceTree = "<group>"; };
-		952C3B342C0CD3D100DF2832 /* nes_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nes_util.h; sourceTree = "<group>"; };
-		952C3B352C0CD3D100DF2832 /* Nes_Vrc6_Apu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Vrc6_Apu.cpp; sourceTree = "<group>"; };
-		952C3B362C0CD3D100DF2832 /* Nes_Vrc6_Apu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Vrc6_Apu.h; sourceTree = "<group>"; };
-		952C3B372C0CD3D100DF2832 /* Nes_Vrc7.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Nes_Vrc7.cpp; sourceTree = "<group>"; };
-		952C3B382C0CD3D100DF2832 /* Nes_Vrc7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nes_Vrc7.h; sourceTree = "<group>"; };
-		952C3B3A2C0CD3D100DF2832 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		952C3B3B2C0CD3D100DF2832 /* .gitlab-ci.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = ".gitlab-ci.yml"; sourceTree = "<group>"; };
-		952C3B3C2C0CD3D100DF2832 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .travis.yml; sourceTree = "<group>"; };
-		952C3B3D2C0CD3D100DF2832 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		952C3B3E2C0CD3D100DF2832 /* link.T */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = link.T; sourceTree = "<group>"; };
-		952C3B3F2C0CD3D100DF2832 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
-		952C3B402C0CD3D100DF2832 /* Makefile.common */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.common; sourceTree = "<group>"; };
 		952CF26A2C07180200DF2832 /* NESCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESCore.swift; sourceTree = "<group>"; };
 		952CF26E2C07195700DF2832 /* NESCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NESCore.h; sourceTree = "<group>"; };
 		952CF2712C071D9500DF2832 /* NESCore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NESCore.m; sourceTree = "<group>"; };
@@ -1820,21 +1496,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		952C3A802C0CD32800DF2832 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		952C3A892C0CD32900DF2832 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				952C3A8D2C0CD32900DF2832 /* LibretroQuickNESFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9570817F2C05E9F500217B82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1870,275 +1531,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		952C3A842C0CD32800DF2832 /* LibretroQuickNESFramework */ = {
-			isa = PBXGroup;
-			children = (
-				952C3B412C0CD3D100DF2832 /* QuickNES_Core */,
-				952C3A852C0CD32800DF2832 /* LibretroQuickNESFramework.h */,
-				952C3A862C0CD32800DF2832 /* LibretroQuickNESFramework.docc */,
-			);
-			path = LibretroQuickNESFramework;
-			sourceTree = "<group>";
-		};
-		952C3A902C0CD32900DF2832 /* LibretroQuickNESFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				952C3A912C0CD32900DF2832 /* LibretroQuickNESFrameworkTests.m */,
-			);
-			path = LibretroQuickNESFrameworkTests;
-			sourceTree = "<group>";
-		};
-		952C3A9D2C0CD3D100DF2832 /* workflows */ = {
-			isa = PBXGroup;
-			children = (
-				952C3A9A2C0CD3D100DF2832 /* compilation.yml */,
-				952C3A9B2C0CD3D100DF2832 /* crowdin_prep.yml */,
-				952C3A9C2C0CD3D100DF2832 /* crowdin_translate.yml */,
-			);
-			path = workflows;
-			sourceTree = "<group>";
-		};
-		952C3A9E2C0CD3D100DF2832 /* .github */ = {
-			isa = PBXGroup;
-			children = (
-				952C3A9D2C0CD3D100DF2832 /* workflows */,
-			);
-			path = .github;
-			sourceTree = "<group>";
-		};
-		952C3AAD2C0CD3D100DF2832 /* intl */ = {
-			isa = PBXGroup;
-			children = (
-				952C3A9F2C0CD3D100DF2832 /* .gitignore */,
-				952C3AA02C0CD3D100DF2832 /* activate.py */,
-				952C3AA12C0CD3D100DF2832 /* core_option_regex.py */,
-				952C3AA22C0CD3D100DF2832 /* core_option_translation.py */,
-				952C3AA32C0CD3D100DF2832 /* crowdin_prep.py */,
-				952C3AA42C0CD3D100DF2832 /* crowdin_source_upload.py */,
-				952C3AA52C0CD3D100DF2832 /* crowdin_translate.py */,
-				952C3AA62C0CD3D100DF2832 /* crowdin_translation_download.py */,
-				952C3AA72C0CD3D100DF2832 /* crowdin.yaml */,
-				952C3AA82C0CD3D100DF2832 /* download_workflow.py */,
-				952C3AA92C0CD3D100DF2832 /* initial_sync.py */,
-				952C3AAA2C0CD3D100DF2832 /* remove_initial_cycle.py */,
-				952C3AAB2C0CD3D100DF2832 /* upload_workflow.py */,
-				952C3AAC2C0CD3D100DF2832 /* v1_to_v2_converter.py */,
-			);
-			path = intl;
-			sourceTree = "<group>";
-		};
-		952C3AB02C0CD3D100DF2832 /* jni */ = {
-			isa = PBXGroup;
-			children = (
-				952C3AAE2C0CD3D100DF2832 /* Android.mk */,
-				952C3AAF2C0CD3D100DF2832 /* Application.mk */,
-			);
-			path = jni;
-			sourceTree = "<group>";
-		};
-		952C3AB22C0CD3D100DF2832 /* msvc */ = {
-			isa = PBXGroup;
-			children = (
-				952C3AB12C0CD3D100DF2832 /* stdint.h */,
-			);
-			path = msvc;
-			sourceTree = "<group>";
-		};
-		952C3AB42C0CD3D100DF2832 /* compat */ = {
-			isa = PBXGroup;
-			children = (
-				952C3AB22C0CD3D100DF2832 /* msvc */,
-				952C3AB32C0CD3D100DF2832 /* msvc.h */,
-			);
-			path = compat;
-			sourceTree = "<group>";
-		};
-		952C3AB82C0CD3D100DF2832 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				952C3AB42C0CD3D100DF2832 /* compat */,
-				952C3AB52C0CD3D100DF2832 /* libretro_gskit_ps2.h */,
-				952C3AB62C0CD3D100DF2832 /* libretro.h */,
-				952C3AB72C0CD3D100DF2832 /* retro_inline.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
-		952C3AB92C0CD3D100DF2832 /* libretro-common */ = {
-			isa = PBXGroup;
-			children = (
-				952C3AB82C0CD3D100DF2832 /* include */,
-			);
-			path = "libretro-common";
-			sourceTree = "<group>";
-		};
-		952C3ABD2C0CD3D100DF2832 /* libretro */ = {
-			isa = PBXGroup;
-			children = (
-				952C3AB92C0CD3D100DF2832 /* libretro-common */,
-				952C3ABA2C0CD3D100DF2832 /* libretro_core_options_intl.h */,
-				952C3ABB2C0CD3D100DF2832 /* libretro_core_options.h */,
-				952C3ABC2C0CD3D100DF2832 /* libretro.cpp */,
-			);
-			path = libretro;
-			sourceTree = "<group>";
-		};
-		952C3AF52C0CD3D100DF2832 /* mappers */ = {
-			isa = PBXGroup;
-			children = (
-				952C3ABE2C0CD3D100DF2832 /* mapper000.hpp */,
-				952C3ABF2C0CD3D100DF2832 /* mapper001.hpp */,
-				952C3AC02C0CD3D100DF2832 /* mapper002.hpp */,
-				952C3AC12C0CD3D100DF2832 /* mapper003.hpp */,
-				952C3AC22C0CD3D100DF2832 /* mapper004.hpp */,
-				952C3AC32C0CD3D100DF2832 /* mapper005.hpp */,
-				952C3AC42C0CD3D100DF2832 /* mapper007.hpp */,
-				952C3AC52C0CD3D100DF2832 /* mapper009.hpp */,
-				952C3AC62C0CD3D100DF2832 /* mapper010.hpp */,
-				952C3AC72C0CD3D100DF2832 /* mapper011.hpp */,
-				952C3AC82C0CD3D100DF2832 /* mapper015.hpp */,
-				952C3AC92C0CD3D100DF2832 /* mapper019.hpp */,
-				952C3ACA2C0CD3D100DF2832 /* mapper021.hpp */,
-				952C3ACB2C0CD3D100DF2832 /* mapper022.hpp */,
-				952C3ACC2C0CD3D100DF2832 /* mapper023.hpp */,
-				952C3ACD2C0CD3D100DF2832 /* mapper024.hpp */,
-				952C3ACE2C0CD3D100DF2832 /* mapper025.hpp */,
-				952C3ACF2C0CD3D100DF2832 /* mapper026.hpp */,
-				952C3AD02C0CD3D100DF2832 /* mapper030.hpp */,
-				952C3AD12C0CD3D100DF2832 /* mapper032.hpp */,
-				952C3AD22C0CD3D100DF2832 /* mapper033.hpp */,
-				952C3AD32C0CD3D100DF2832 /* mapper034.hpp */,
-				952C3AD42C0CD3D100DF2832 /* mapper060.hpp */,
-				952C3AD52C0CD3D100DF2832 /* mapper066.hpp */,
-				952C3AD62C0CD3D100DF2832 /* mapper069.hpp */,
-				952C3AD72C0CD3D100DF2832 /* mapper070.hpp */,
-				952C3AD82C0CD3D100DF2832 /* mapper071.hpp */,
-				952C3AD92C0CD3D100DF2832 /* mapper073.hpp */,
-				952C3ADA2C0CD3D100DF2832 /* mapper075.hpp */,
-				952C3ADB2C0CD3D100DF2832 /* mapper078.hpp */,
-				952C3ADC2C0CD3D100DF2832 /* mapper079.hpp */,
-				952C3ADD2C0CD3D100DF2832 /* mapper085.hpp */,
-				952C3ADE2C0CD3D100DF2832 /* mapper086.hpp */,
-				952C3ADF2C0CD3D100DF2832 /* mapper087.hpp */,
-				952C3AE02C0CD3D100DF2832 /* mapper088.hpp */,
-				952C3AE12C0CD3D100DF2832 /* mapper089.hpp */,
-				952C3AE22C0CD3D100DF2832 /* mapper093.hpp */,
-				952C3AE32C0CD3D100DF2832 /* mapper094.hpp */,
-				952C3AE42C0CD3D100DF2832 /* mapper097.hpp */,
-				952C3AE52C0CD3D100DF2832 /* mapper113.hpp */,
-				952C3AE62C0CD3D100DF2832 /* mapper140.hpp */,
-				952C3AE72C0CD3D100DF2832 /* mapper152.hpp */,
-				952C3AE82C0CD3D100DF2832 /* mapper154.hpp */,
-				952C3AE92C0CD3D100DF2832 /* mapper156.hpp */,
-				952C3AEA2C0CD3D100DF2832 /* mapper180.hpp */,
-				952C3AEB2C0CD3D100DF2832 /* mapper184.hpp */,
-				952C3AEC2C0CD3D100DF2832 /* mapper190.hpp */,
-				952C3AED2C0CD3D100DF2832 /* mapper193.hpp */,
-				952C3AEE2C0CD3D100DF2832 /* mapper206.hpp */,
-				952C3AEF2C0CD3D100DF2832 /* mapper207.hpp */,
-				952C3AF02C0CD3D100DF2832 /* mapper232.hpp */,
-				952C3AF12C0CD3D100DF2832 /* mapper240.hpp */,
-				952C3AF22C0CD3D100DF2832 /* mapper241.hpp */,
-				952C3AF32C0CD3D100DF2832 /* mapper244.hpp */,
-				952C3AF42C0CD3D100DF2832 /* mapper246.hpp */,
-			);
-			path = mappers;
-			sourceTree = "<group>";
-		};
-		952C3B392C0CD3D100DF2832 /* nes_emu */ = {
-			isa = PBXGroup;
-			children = (
-				952C3AF52C0CD3D100DF2832 /* mappers */,
-				952C3AF62C0CD3D100DF2832 /* abstract_file.cpp */,
-				952C3AF72C0CD3D100DF2832 /* abstract_file.h */,
-				952C3AF82C0CD3D100DF2832 /* apu_state.cpp */,
-				952C3AF92C0CD3D100DF2832 /* apu_state.h */,
-				952C3AFA2C0CD3D100DF2832 /* blargg_common.h */,
-				952C3AFB2C0CD3D100DF2832 /* blargg_config.h */,
-				952C3AFC2C0CD3D100DF2832 /* blargg_endian.h */,
-				952C3AFD2C0CD3D100DF2832 /* blargg_source.h */,
-				952C3AFE2C0CD3D100DF2832 /* Blip_Buffer.cpp */,
-				952C3AFF2C0CD3D100DF2832 /* Blip_Buffer.h */,
-				952C3B002C0CD3D100DF2832 /* Data_Reader.cpp */,
-				952C3B012C0CD3D100DF2832 /* Data_Reader.h */,
-				952C3B022C0CD3D100DF2832 /* Effects_Buffer.cpp */,
-				952C3B032C0CD3D100DF2832 /* Effects_Buffer.h */,
-				952C3B042C0CD3D100DF2832 /* emu2413_state.cpp */,
-				952C3B052C0CD3D100DF2832 /* emu2413_state.h */,
-				952C3B062C0CD3D100DF2832 /* emu2413.cpp */,
-				952C3B072C0CD3D100DF2832 /* emu2413.h */,
-				952C3B082C0CD3D100DF2832 /* Multi_Buffer.cpp */,
-				952C3B092C0CD3D100DF2832 /* Multi_Buffer.h */,
-				952C3B0A2C0CD3D100DF2832 /* Nes_Apu.cpp */,
-				952C3B0B2C0CD3D100DF2832 /* Nes_Apu.h */,
-				952C3B0C2C0CD3D100DF2832 /* Nes_Buffer.cpp */,
-				952C3B0D2C0CD3D100DF2832 /* Nes_Buffer.h */,
-				952C3B0E2C0CD3D100DF2832 /* Nes_Cart.cpp */,
-				952C3B0F2C0CD3D100DF2832 /* Nes_Cart.h */,
-				952C3B102C0CD3D100DF2832 /* Nes_Core.cpp */,
-				952C3B112C0CD3D100DF2832 /* Nes_Core.h */,
-				952C3B122C0CD3D100DF2832 /* nes_cpu_io.h */,
-				952C3B132C0CD3D100DF2832 /* Nes_Cpu.cpp */,
-				952C3B142C0CD3D100DF2832 /* Nes_Cpu.h */,
-				952C3B152C0CD3D100DF2832 /* nes_data.cpp */,
-				952C3B162C0CD3D100DF2832 /* nes_data.h */,
-				952C3B172C0CD3D100DF2832 /* Nes_Effects_Buffer.cpp */,
-				952C3B182C0CD3D100DF2832 /* Nes_Effects_Buffer.h */,
-				952C3B192C0CD3D100DF2832 /* Nes_Emu.cpp */,
-				952C3B1A2C0CD3D100DF2832 /* Nes_Emu.h */,
-				952C3B1B2C0CD3D100DF2832 /* Nes_File.cpp */,
-				952C3B1C2C0CD3D100DF2832 /* Nes_File.h */,
-				952C3B1D2C0CD3D100DF2832 /* Nes_Fme7_Apu.cpp */,
-				952C3B1E2C0CD3D100DF2832 /* Nes_Fme7_Apu.h */,
-				952C3B1F2C0CD3D100DF2832 /* Nes_Mapper.cpp */,
-				952C3B202C0CD3D100DF2832 /* Nes_Mapper.h */,
-				952C3B212C0CD3D100DF2832 /* Nes_Namco_Apu.cpp */,
-				952C3B222C0CD3D100DF2832 /* Nes_Namco_Apu.h */,
-				952C3B232C0CD3D100DF2832 /* nes_ntsc_config.h */,
-				952C3B242C0CD3D100DF2832 /* nes_ntsc_impl.h */,
-				952C3B252C0CD3D100DF2832 /* nes_ntsc.cpp */,
-				952C3B262C0CD3D100DF2832 /* nes_ntsc.h */,
-				952C3B272C0CD3D100DF2832 /* Nes_Oscs.cpp */,
-				952C3B282C0CD3D100DF2832 /* Nes_Oscs.h */,
-				952C3B292C0CD3D100DF2832 /* Nes_Ppu_Bg.h */,
-				952C3B2A2C0CD3D100DF2832 /* Nes_Ppu_Impl.cpp */,
-				952C3B2B2C0CD3D100DF2832 /* Nes_Ppu_Impl.h */,
-				952C3B2C2C0CD3D100DF2832 /* Nes_Ppu_Rendering.cpp */,
-				952C3B2D2C0CD3D100DF2832 /* Nes_Ppu_Rendering.h */,
-				952C3B2E2C0CD3D100DF2832 /* Nes_Ppu_Sprites.h */,
-				952C3B2F2C0CD3D100DF2832 /* Nes_Ppu.cpp */,
-				952C3B302C0CD3D100DF2832 /* Nes_Ppu.h */,
-				952C3B312C0CD3D100DF2832 /* Nes_State.cpp */,
-				952C3B322C0CD3D100DF2832 /* Nes_State.h */,
-				952C3B332C0CD3D100DF2832 /* nes_util.cpp */,
-				952C3B342C0CD3D100DF2832 /* nes_util.h */,
-				952C3B352C0CD3D100DF2832 /* Nes_Vrc6_Apu.cpp */,
-				952C3B362C0CD3D100DF2832 /* Nes_Vrc6_Apu.h */,
-				952C3B372C0CD3D100DF2832 /* Nes_Vrc7.cpp */,
-				952C3B382C0CD3D100DF2832 /* Nes_Vrc7.h */,
-			);
-			path = nes_emu;
-			sourceTree = "<group>";
-		};
-		952C3B412C0CD3D100DF2832 /* QuickNES_Core */ = {
-			isa = PBXGroup;
-			children = (
-				952C3A9E2C0CD3D100DF2832 /* .github */,
-				952C3AAD2C0CD3D100DF2832 /* intl */,
-				952C3AB02C0CD3D100DF2832 /* jni */,
-				952C3ABD2C0CD3D100DF2832 /* libretro */,
-				952C3B392C0CD3D100DF2832 /* nes_emu */,
-				952C3B3A2C0CD3D100DF2832 /* .gitignore */,
-				952C3B3B2C0CD3D100DF2832 /* .gitlab-ci.yml */,
-				952C3B3C2C0CD3D100DF2832 /* .travis.yml */,
-				952C3B3D2C0CD3D100DF2832 /* LICENSE */,
-				952C3B3E2C0CD3D100DF2832 /* link.T */,
-				952C3B3F2C0CD3D100DF2832 /* Makefile */,
-				952C3B402C0CD3D100DF2832 /* Makefile.common */,
-			);
-			path = QuickNES_Core;
-			sourceTree = "<group>";
-		};
 		952CF26C2C07182400DF2832 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -2152,8 +1544,6 @@
 			children = (
 				957081842C05E9F500217B82 /* ArcadiaNESCore */,
 				957081902C05E9F600217B82 /* ArcadiaNESCoreTests */,
-				952C3A842C0CD32800DF2832 /* LibretroQuickNESFramework */,
-				952C3A902C0CD32900DF2832 /* LibretroQuickNESFrameworkTests */,
 				959F76802C12FC9B009EF53B /* LibretroNestopia */,
 				959F768C2C12FC9B009EF53B /* LibretroNestopiaTests */,
 				957081832C05E9F500217B82 /* Products */,
@@ -2166,8 +1556,6 @@
 			children = (
 				957081822C05E9F500217B82 /* ArcadiaNESCore.framework */,
 				9570818C2C05E9F600217B82 /* ArcadiaNESCoreTests.xctest */,
-				952C3A832C0CD32800DF2832 /* LibretroQuickNESFramework.framework */,
-				952C3A8C2C0CD32900DF2832 /* LibretroQuickNESFrameworkTests.xctest */,
 				959F767F2C12FC9B009EF53B /* LibretroNestopia.framework */,
 				959F76882C12FC9B009EF53B /* LibretroNestopiaTests.xctest */,
 			);
@@ -3083,113 +2471,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		952C3A7E2C0CD32800DF2832 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				952C3BB62C0CD3D300DF2832 /* Nes_Effects_Buffer.h in Headers */,
-				952C3B6A2C0CD3D200DF2832 /* mapper022.hpp in Headers */,
-				952C3B7E2C0CD3D200DF2832 /* mapper087.hpp in Headers */,
-				952C3B752C0CD3D200DF2832 /* mapper069.hpp in Headers */,
-				952C3B9D2C0CD3D300DF2832 /* Blip_Buffer.h in Headers */,
-				952C3B822C0CD3D300DF2832 /* mapper094.hpp in Headers */,
-				952C3BD22C0CD3D400DF2832 /* nes_util.h in Headers */,
-				952C3BC72C0CD3D400DF2832 /* Nes_Ppu_Bg.h in Headers */,
-				952C3B932C0CD3D300DF2832 /* mapper246.hpp in Headers */,
-				952C3BB82C0CD3D300DF2832 /* Nes_Emu.h in Headers */,
-				952C3B592C0CD3D200DF2832 /* retro_inline.h in Headers */,
-				952C3BB22C0CD3D300DF2832 /* Nes_Cpu.h in Headers */,
-				952C3B812C0CD3D300DF2832 /* mapper093.hpp in Headers */,
-				952C3B862C0CD3D300DF2832 /* mapper152.hpp in Headers */,
-				952C3BAF2C0CD3D300DF2832 /* Nes_Core.h in Headers */,
-				952C3B8F2C0CD3D300DF2832 /* mapper232.hpp in Headers */,
-				952C3B8A2C0CD3D300DF2832 /* mapper184.hpp in Headers */,
-				952C3BCB2C0CD3D400DF2832 /* Nes_Ppu_Rendering.h in Headers */,
-				952C3B642C0CD3D200DF2832 /* mapper009.hpp in Headers */,
-				952C3B902C0CD3D300DF2832 /* mapper240.hpp in Headers */,
-				952C3B892C0CD3D300DF2832 /* mapper180.hpp in Headers */,
-				952C3B682C0CD3D200DF2832 /* mapper019.hpp in Headers */,
-				952C3B9A2C0CD3D300DF2832 /* blargg_endian.h in Headers */,
-				952C3BD42C0CD3D400DF2832 /* Nes_Vrc6_Apu.h in Headers */,
-				952C3B7C2C0CD3D200DF2832 /* mapper085.hpp in Headers */,
-				952C3B7D2C0CD3D200DF2832 /* mapper086.hpp in Headers */,
-				952C3B742C0CD3D200DF2832 /* mapper066.hpp in Headers */,
-				952C3B6F2C0CD3D200DF2832 /* mapper030.hpp in Headers */,
-				952C3B632C0CD3D200DF2832 /* mapper007.hpp in Headers */,
-				952C3B842C0CD3D300DF2832 /* mapper113.hpp in Headers */,
-				952C3B562C0CD3D200DF2832 /* msvc.h in Headers */,
-				952C3B722C0CD3D200DF2832 /* mapper034.hpp in Headers */,
-				952C3B6B2C0CD3D200DF2832 /* mapper023.hpp in Headers */,
-				952C3BBC2C0CD3D400DF2832 /* Nes_Fme7_Apu.h in Headers */,
-				952C3B922C0CD3D300DF2832 /* mapper244.hpp in Headers */,
-				952C3B612C0CD3D200DF2832 /* mapper004.hpp in Headers */,
-				952C3BA72C0CD3D300DF2832 /* Multi_Buffer.h in Headers */,
-				952C3B8C2C0CD3D300DF2832 /* mapper193.hpp in Headers */,
-				952C3B9F2C0CD3D300DF2832 /* Data_Reader.h in Headers */,
-				952C3B8D2C0CD3D300DF2832 /* mapper206.hpp in Headers */,
-				952C3B972C0CD3D300DF2832 /* apu_state.h in Headers */,
-				952C3B702C0CD3D200DF2832 /* mapper032.hpp in Headers */,
-				952C3BAB2C0CD3D300DF2832 /* Nes_Buffer.h in Headers */,
-				952C3B7A2C0CD3D200DF2832 /* mapper078.hpp in Headers */,
-				952C3BCC2C0CD3D400DF2832 /* Nes_Ppu_Sprites.h in Headers */,
-				952C3BD02C0CD3D400DF2832 /* Nes_State.h in Headers */,
-				952C3B802C0CD3D300DF2832 /* mapper089.hpp in Headers */,
-				952C3BA32C0CD3D300DF2832 /* emu2413_state.h in Headers */,
-				952C3BB02C0CD3D300DF2832 /* nes_cpu_io.h in Headers */,
-				952C3B582C0CD3D200DF2832 /* libretro.h in Headers */,
-				952C3BBA2C0CD3D300DF2832 /* Nes_File.h in Headers */,
-				952C3B5E2C0CD3D200DF2832 /* mapper001.hpp in Headers */,
-				952C3B882C0CD3D300DF2832 /* mapper156.hpp in Headers */,
-				952C3B982C0CD3D300DF2832 /* blargg_common.h in Headers */,
-				952C3B6D2C0CD3D200DF2832 /* mapper025.hpp in Headers */,
-				952C3B622C0CD3D200DF2832 /* mapper005.hpp in Headers */,
-				952C3B5B2C0CD3D200DF2832 /* libretro_core_options.h in Headers */,
-				952C3B652C0CD3D200DF2832 /* mapper010.hpp in Headers */,
-				952C3B852C0CD3D300DF2832 /* mapper140.hpp in Headers */,
-				952C3BC02C0CD3D400DF2832 /* Nes_Namco_Apu.h in Headers */,
-				952C3B712C0CD3D200DF2832 /* mapper033.hpp in Headers */,
-				952C3BC42C0CD3D400DF2832 /* nes_ntsc.h in Headers */,
-				952C3BA92C0CD3D300DF2832 /* Nes_Apu.h in Headers */,
-				952C3B912C0CD3D300DF2832 /* mapper241.hpp in Headers */,
-				952C3B792C0CD3D200DF2832 /* mapper075.hpp in Headers */,
-				952C3B9B2C0CD3D300DF2832 /* blargg_source.h in Headers */,
-				952C3BC92C0CD3D400DF2832 /* Nes_Ppu_Impl.h in Headers */,
-				952C3B7B2C0CD3D200DF2832 /* mapper079.hpp in Headers */,
-				952C3B8E2C0CD3D300DF2832 /* mapper207.hpp in Headers */,
-				952C3BC12C0CD3D400DF2832 /* nes_ntsc_config.h in Headers */,
-				952C3B732C0CD3D200DF2832 /* mapper060.hpp in Headers */,
-				952C3BC22C0CD3D400DF2832 /* nes_ntsc_impl.h in Headers */,
-				952C3BBE2C0CD3D400DF2832 /* Nes_Mapper.h in Headers */,
-				952C3B5D2C0CD3D200DF2832 /* mapper000.hpp in Headers */,
-				952C3B782C0CD3D200DF2832 /* mapper073.hpp in Headers */,
-				952C3BD62C0CD3D400DF2832 /* Nes_Vrc7.h in Headers */,
-				952C3B5F2C0CD3D200DF2832 /* mapper002.hpp in Headers */,
-				952C3B772C0CD3D200DF2832 /* mapper071.hpp in Headers */,
-				952C3B872C0CD3D300DF2832 /* mapper154.hpp in Headers */,
-				952C3BA12C0CD3D300DF2832 /* Effects_Buffer.h in Headers */,
-				952C3B602C0CD3D200DF2832 /* mapper003.hpp in Headers */,
-				952C3B572C0CD3D200DF2832 /* libretro_gskit_ps2.h in Headers */,
-				952C3A932C0CD32900DF2832 /* LibretroQuickNESFramework.h in Headers */,
-				952C3B8B2C0CD3D300DF2832 /* mapper190.hpp in Headers */,
-				952C3B662C0CD3D200DF2832 /* mapper011.hpp in Headers */,
-				952C3BB42C0CD3D300DF2832 /* nes_data.h in Headers */,
-				952C3B672C0CD3D200DF2832 /* mapper015.hpp in Headers */,
-				952C3BA52C0CD3D300DF2832 /* emu2413.h in Headers */,
-				952C3BC62C0CD3D400DF2832 /* Nes_Oscs.h in Headers */,
-				952C3B952C0CD3D300DF2832 /* abstract_file.h in Headers */,
-				952C3BCE2C0CD3D400DF2832 /* Nes_Ppu.h in Headers */,
-				952C3B692C0CD3D200DF2832 /* mapper021.hpp in Headers */,
-				952C3B6C2C0CD3D200DF2832 /* mapper024.hpp in Headers */,
-				952C3B6E2C0CD3D200DF2832 /* mapper026.hpp in Headers */,
-				952C3B832C0CD3D300DF2832 /* mapper097.hpp in Headers */,
-				952C3B5A2C0CD3D200DF2832 /* libretro_core_options_intl.h in Headers */,
-				952C3B992C0CD3D300DF2832 /* blargg_config.h in Headers */,
-				952C3BAD2C0CD3D300DF2832 /* Nes_Cart.h in Headers */,
-				952C3B7F2C0CD3D200DF2832 /* mapper088.hpp in Headers */,
-				952C3B762C0CD3D200DF2832 /* mapper070.hpp in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9570817D2C05E9F500217B82 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -3554,42 +2835,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		952C3A822C0CD32800DF2832 /* LibretroQuickNESFramework */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 952C3A982C0CD32900DF2832 /* Build configuration list for PBXNativeTarget "LibretroQuickNESFramework" */;
-			buildPhases = (
-				952C3A7E2C0CD32800DF2832 /* Headers */,
-				952C3A7F2C0CD32800DF2832 /* Sources */,
-				952C3A802C0CD32800DF2832 /* Frameworks */,
-				952C3A812C0CD32800DF2832 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = LibretroQuickNESFramework;
-			productName = LibretroQuickNESFramework;
-			productReference = 952C3A832C0CD32800DF2832 /* LibretroQuickNESFramework.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		952C3A8B2C0CD32900DF2832 /* LibretroQuickNESFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 952C3A992C0CD32900DF2832 /* Build configuration list for PBXNativeTarget "LibretroQuickNESFrameworkTests" */;
-			buildPhases = (
-				952C3A882C0CD32900DF2832 /* Sources */,
-				952C3A892C0CD32900DF2832 /* Frameworks */,
-				952C3A8A2C0CD32900DF2832 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				952C3A8F2C0CD32900DF2832 /* PBXTargetDependency */,
-			);
-			name = LibretroQuickNESFrameworkTests;
-			productName = LibretroQuickNESFrameworkTests;
-			productReference = 952C3A8C2C0CD32900DF2832 /* LibretroQuickNESFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		957081812C05E9F500217B82 /* ArcadiaNESCore */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 957081962C05E9F600217B82 /* Build configuration list for PBXNativeTarget "ArcadiaNESCore" */;
@@ -3674,12 +2919,6 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					952C3A822C0CD32800DF2832 = {
-						CreatedOnToolsVersion = 15.4;
-					};
-					952C3A8B2C0CD32900DF2832 = {
-						CreatedOnToolsVersion = 15.4;
-					};
 					957081812C05E9F500217B82 = {
 						CreatedOnToolsVersion = 15.4;
 						LastSwiftMigration = 1540;
@@ -3710,8 +2949,6 @@
 			targets = (
 				957081812C05E9F500217B82 /* ArcadiaNESCore */,
 				9570818B2C05E9F600217B82 /* ArcadiaNESCoreTests */,
-				952C3A822C0CD32800DF2832 /* LibretroQuickNESFramework */,
-				952C3A8B2C0CD32900DF2832 /* LibretroQuickNESFrameworkTests */,
 				959F767E2C12FC9B009EF53B /* LibretroNestopia */,
 				959F76872C12FC9B009EF53B /* LibretroNestopiaTests */,
 			);
@@ -3719,42 +2956,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		952C3A812C0CD32800DF2832 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				952C3B542C0CD3D200DF2832 /* Application.mk in Resources */,
-				952C3B522C0CD3D200DF2832 /* v1_to_v2_converter.py in Resources */,
-				952C3B4B2C0CD3D200DF2832 /* crowdin_translate.py in Resources */,
-				952C3B4E2C0CD3D200DF2832 /* download_workflow.py in Resources */,
-				952C3B462C0CD3D100DF2832 /* activate.py in Resources */,
-				952C3B492C0CD3D200DF2832 /* crowdin_prep.py in Resources */,
-				952C3B442C0CD3D100DF2832 /* crowdin_translate.yml in Resources */,
-				952C3B432C0CD3D100DF2832 /* crowdin_prep.yml in Resources */,
-				952C3B4A2C0CD3D200DF2832 /* crowdin_source_upload.py in Resources */,
-				952C3B512C0CD3D200DF2832 /* upload_workflow.py in Resources */,
-				952C3BDD2C0CD3D400DF2832 /* Makefile.common in Resources */,
-				952C3BDA2C0CD3D400DF2832 /* LICENSE in Resources */,
-				952C3B482C0CD3D100DF2832 /* core_option_translation.py in Resources */,
-				952C3B532C0CD3D200DF2832 /* Android.mk in Resources */,
-				952C3B502C0CD3D200DF2832 /* remove_initial_cycle.py in Resources */,
-				952C3BD92C0CD3D400DF2832 /* .travis.yml in Resources */,
-				952C3B472C0CD3D100DF2832 /* core_option_regex.py in Resources */,
-				952C3B422C0CD3D100DF2832 /* compilation.yml in Resources */,
-				952C3B4C2C0CD3D200DF2832 /* crowdin_translation_download.py in Resources */,
-				952C3B4F2C0CD3D200DF2832 /* initial_sync.py in Resources */,
-				952C3BDB2C0CD3D400DF2832 /* link.T in Resources */,
-				952C3B4D2C0CD3D200DF2832 /* crowdin.yaml in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		952C3A8A2C0CD32900DF2832 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		957081802C05E9F500217B82 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3848,53 +3049,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		952C3A7F2C0CD32800DF2832 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				952C3B962C0CD3D300DF2832 /* apu_state.cpp in Sources */,
-				952C3BCA2C0CD3D400DF2832 /* Nes_Ppu_Rendering.cpp in Sources */,
-				952C3B5C2C0CD3D200DF2832 /* libretro.cpp in Sources */,
-				952C3BBF2C0CD3D400DF2832 /* Nes_Namco_Apu.cpp in Sources */,
-				952C3BBB2C0CD3D300DF2832 /* Nes_Fme7_Apu.cpp in Sources */,
-				952C3BA42C0CD3D300DF2832 /* emu2413.cpp in Sources */,
-				952C3BDC2C0CD3D400DF2832 /* Makefile in Sources */,
-				952C3BAE2C0CD3D300DF2832 /* Nes_Core.cpp in Sources */,
-				952C3B9E2C0CD3D300DF2832 /* Data_Reader.cpp in Sources */,
-				952C3BCF2C0CD3D400DF2832 /* Nes_State.cpp in Sources */,
-				952C3BAC2C0CD3D300DF2832 /* Nes_Cart.cpp in Sources */,
-				952C3BB72C0CD3D300DF2832 /* Nes_Emu.cpp in Sources */,
-				952C3BC32C0CD3D400DF2832 /* nes_ntsc.cpp in Sources */,
-				952C3BB12C0CD3D300DF2832 /* Nes_Cpu.cpp in Sources */,
-				952C3BA22C0CD3D300DF2832 /* emu2413_state.cpp in Sources */,
-				952C3BD32C0CD3D400DF2832 /* Nes_Vrc6_Apu.cpp in Sources */,
-				952C3BB92C0CD3D300DF2832 /* Nes_File.cpp in Sources */,
-				952C3BBD2C0CD3D400DF2832 /* Nes_Mapper.cpp in Sources */,
-				952C3BA82C0CD3D300DF2832 /* Nes_Apu.cpp in Sources */,
-				952C3BD12C0CD3D400DF2832 /* nes_util.cpp in Sources */,
-				952C3B9C2C0CD3D300DF2832 /* Blip_Buffer.cpp in Sources */,
-				952C3BB52C0CD3D300DF2832 /* Nes_Effects_Buffer.cpp in Sources */,
-				952C3BA02C0CD3D300DF2832 /* Effects_Buffer.cpp in Sources */,
-				952C3BC52C0CD3D400DF2832 /* Nes_Oscs.cpp in Sources */,
-				952C3BCD2C0CD3D400DF2832 /* Nes_Ppu.cpp in Sources */,
-				952C3BA62C0CD3D300DF2832 /* Multi_Buffer.cpp in Sources */,
-				952C3BB32C0CD3D300DF2832 /* nes_data.cpp in Sources */,
-				952C3B942C0CD3D300DF2832 /* abstract_file.cpp in Sources */,
-				952C3BC82C0CD3D400DF2832 /* Nes_Ppu_Impl.cpp in Sources */,
-				952C3BD52C0CD3D400DF2832 /* Nes_Vrc7.cpp in Sources */,
-				952C3BAA2C0CD3D300DF2832 /* Nes_Buffer.cpp in Sources */,
-				952C3A872C0CD32800DF2832 /* LibretroQuickNESFramework.docc in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		952C3A882C0CD32900DF2832 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				952C3A922C0CD32900DF2832 /* LibretroQuickNESFrameworkTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9570817E2C05E9F500217B82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -4232,11 +3386,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		952C3A8F2C0CD32900DF2832 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 952C3A822C0CD32800DF2832 /* LibretroQuickNESFramework */;
-			targetProxy = 952C3A8E2C0CD32900DF2832 /* PBXContainerItemProxy */;
-		};
 		9570818F2C05E9F600217B82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 957081812C05E9F500217B82 /* ArcadiaNESCore */;
@@ -4255,136 +3404,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		952C3A942C0CD32900DF2832 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 32DR4Q2NF7;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				OTHER_CFLAGS = (
-					"-DHAVE_NO_LANGEXTRA",
-					"-D__LIBRETRO__",
-					"-DNDEBUG",
-					"-O2",
-				);
-				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.davideandreoli.LibretroQuickNESFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = auto;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		952C3A952C0CD32900DF2832 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 32DR4Q2NF7;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				OTHER_CFLAGS = (
-					"-DHAVE_NO_LANGEXTRA",
-					"-D__LIBRETRO__",
-					"-DNDEBUG",
-					"-O2",
-				);
-				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.davideandreoli.LibretroQuickNESFramework;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = auto;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		952C3A962C0CD32900DF2832 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32DR4Q2NF7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.davideandreoli.LibretroQuickNESFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		952C3A972C0CD32900DF2832 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 32DR4Q2NF7;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.davideandreoli.LibretroQuickNESFrameworkTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		957081942C05E9F600217B82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4787,24 +3806,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		952C3A982C0CD32900DF2832 /* Build configuration list for PBXNativeTarget "LibretroQuickNESFramework" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				952C3A942C0CD32900DF2832 /* Debug */,
-				952C3A952C0CD32900DF2832 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		952C3A992C0CD32900DF2832 /* Build configuration list for PBXNativeTarget "LibretroQuickNESFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				952C3A962C0CD32900DF2832 /* Debug */,
-				952C3A972C0CD32900DF2832 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		9570817C2C05E9F500217B82 /* Build configuration list for PBXProject "ArcadiaNESCore" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
