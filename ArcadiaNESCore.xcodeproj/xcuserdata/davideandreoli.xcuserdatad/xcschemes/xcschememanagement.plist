@@ -7,12 +7,12 @@
 		<key>ArcadiaNESCore.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>8</integer>
 		</dict>
 		<key>LibretroNestopia.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>9</integer>
 		</dict>
 		<key>LibretroQuickNES.xcscheme_^#shared#^_</key>
 		<dict>
