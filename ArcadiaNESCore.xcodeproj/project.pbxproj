@@ -20,54 +20,12 @@
 		959F76892C12FC9B009EF53B /* LibretroNestopia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959F767F2C12FC9B009EF53B /* LibretroNestopia.framework */; };
 		959F768E2C12FC9B009EF53B /* LibretroNestopiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F768D2C12FC9B009EF53B /* LibretroNestopiaTests.swift */; };
 		959F768F2C12FC9B009EF53B /* LibretroNestopia.h in Headers */ = {isa = PBXBuildFile; fileRef = 959F76812C12FC9B009EF53B /* LibretroNestopia.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		959F7F132C12FCE2009EF53B /* crowdin_prep.yml in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C382C12FCE2009EF53B /* crowdin_prep.yml */; };
-		959F7F142C12FCE2009EF53B /* crowdin_translate.yml in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C392C12FCE2009EF53B /* crowdin_translate.yml */; };
-		959F7F162C12FCE2009EF53B /* activate.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C3D2C12FCE2009EF53B /* activate.py */; };
-		959F7F172C12FCE2009EF53B /* core_option_regex.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C3E2C12FCE2009EF53B /* core_option_regex.py */; };
-		959F7F182C12FCE2009EF53B /* core_option_translation.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C3F2C12FCE2009EF53B /* core_option_translation.py */; };
-		959F7F192C12FCE2009EF53B /* crowdin_prep.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C402C12FCE2009EF53B /* crowdin_prep.py */; };
-		959F7F1A2C12FCE2009EF53B /* crowdin_source_upload.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C412C12FCE2009EF53B /* crowdin_source_upload.py */; };
-		959F7F1B2C12FCE2009EF53B /* crowdin_translate.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C422C12FCE2009EF53B /* crowdin_translate.py */; };
-		959F7F1C2C12FCE2009EF53B /* crowdin_translation_download.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C432C12FCE2009EF53B /* crowdin_translation_download.py */; };
-		959F7F1D2C12FCE2009EF53B /* crowdin.yaml in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C442C12FCE2009EF53B /* crowdin.yaml */; };
-		959F7F1E2C12FCE2009EF53B /* download_workflow.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C452C12FCE2009EF53B /* download_workflow.py */; };
-		959F7F1F2C12FCE2009EF53B /* initial_sync.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C462C12FCE2009EF53B /* initial_sync.py */; };
-		959F7F202C12FCE2009EF53B /* remove_initial_cycle.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C472C12FCE2009EF53B /* remove_initial_cycle.py */; };
-		959F7F212C12FCE2009EF53B /* upload_workflow.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C482C12FCE2009EF53B /* upload_workflow.py */; };
-		959F7F222C12FCE2009EF53B /* v1_to_v2_converter.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C492C12FCE2009EF53B /* v1_to_v2_converter.py */; };
-		959F7F232C12FCE2009EF53B /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C4B2C12FCE2009EF53B /* Android.mk */; };
-		959F7F242C12FCE2009EF53B /* Application.mk in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C4C2C12FCE2009EF53B /* Application.mk */; };
 		959F7F262C12FCE2009EF53B /* libretro.h in Headers */ = {isa = PBXBuildFile; fileRef = 959F7C512C12FCE2009EF53B /* libretro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		959F7F272C12FCE2009EF53B /* retro_inline.h in Headers */ = {isa = PBXBuildFile; fileRef = 959F7C522C12FCE2009EF53B /* retro_inline.h */; };
-		959F7F282C12FCE2009EF53B /* control in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C552C12FCE2009EF53B /* control */; };
 		959F7F292C12FCE2009EF53B /* libretro_core_options_intl.h in Headers */ = {isa = PBXBuildFile; fileRef = 959F7C562C12FCE2009EF53B /* libretro_core_options_intl.h */; };
 		959F7F2A2C12FCE2009EF53B /* libretro_core_options.h in Headers */ = {isa = PBXBuildFile; fileRef = 959F7C572C12FCE2009EF53B /* libretro_core_options.h */; };
 		959F7F2B2C12FCE2009EF53B /* libretro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7C582C12FCE2009EF53B /* libretro.cpp */; };
-		959F7F2C2C12FCE2009EF53B /* link.T in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C592C12FCE2009EF53B /* link.T */; };
-		959F7F2D2C12FCE2009EF53B /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 959F7C5A2C12FCE2009EF53B /* Makefile */; };
-		959F7F2E2C12FCE2009EF53B /* Makefile.common in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C5B2C12FCE2009EF53B /* Makefile.common */; };
 		959F7F2F2C12FCE2009EF53B /* nstdatabase.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7C5C2C12FCE2009EF53B /* nstdatabase.hpp */; };
-		959F7F302C12FCE2009EF53B /* xml2hpp.py in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C5D2C12FCE2009EF53B /* xml2hpp.py */; };
-		959F7F312C12FCE2009EF53B /* BMFFINR2.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C5F2C12FCE2009EF53B /* BMFFINR2.pal */; };
-		959F7F322C12FCE2009EF53B /* BMFFINR3.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C602C12FCE2009EF53B /* BMFFINR3.pal */; };
-		959F7F332C12FCE2009EF53B /* Composite Direct (FBX).pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C612C12FCE2009EF53B /* Composite Direct (FBX).pal */; };
-		959F7F342C12FCE2009EF53B /* CXA2025AS-1536.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C622C12FCE2009EF53B /* CXA2025AS-1536.pal */; };
-		959F7F352C12FCE2009EF53B /* hybrid.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C632C12FCE2009EF53B /* hybrid.pal */; };
-		959F7F362C12FCE2009EF53B /* NES Classic (FBX-FS).pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C642C12FCE2009EF53B /* NES Classic (FBX-FS).pal */; };
-		959F7F372C12FCE2009EF53B /* NES_Classic-FBX.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C652C12FCE2009EF53B /* NES_Classic-FBX.pal */; };
-		959F7F382C12FCE2009EF53B /* nescap.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C662C12FCE2009EF53B /* nescap.pal */; };
-		959F7F392C12FCE2009EF53B /* Nostalgia-FBX.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C672C12FCE2009EF53B /* Nostalgia-FBX.pal */; };
-		959F7F3A2C12FCE2009EF53B /* ntsc.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C682C12FCE2009EF53B /* ntsc.pal */; };
-		959F7F3B2C12FCE2009EF53B /* Original Hardware (FBX).pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C692C12FCE2009EF53B /* Original Hardware (FBX).pal */; };
-		959F7F3C2C12FCE2009EF53B /* PVM Style (FBX).pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C6A2C12FCE2009EF53B /* PVM Style (FBX).pal */; };
-		959F7F3D2C12FCE2009EF53B /* PVM Style D93 (FBX).pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C6B2C12FCE2009EF53B /* PVM Style D93 (FBX).pal */; };
-		959F7F3E2C12FCE2009EF53B /* Smooth (FBX).pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C6C2C12FCE2009EF53B /* Smooth (FBX).pal */; };
-		959F7F3F2C12FCE2009EF53B /* SONY_CXA2025AS_US.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C6D2C12FCE2009EF53B /* SONY_CXA2025AS_US.pal */; };
-		959F7F402C12FCE2009EF53B /* Unsaturated-Final.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C6E2C12FCE2009EF53B /* Unsaturated-Final.pal */; };
-		959F7F412C12FCE2009EF53B /* Unsaturated-V5.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C6F2C12FCE2009EF53B /* Unsaturated-V5.pal */; };
-		959F7F422C12FCE2009EF53B /* Unsaturated-V6.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C702C12FCE2009EF53B /* Unsaturated-V6.pal */; };
-		959F7F432C12FCE2009EF53B /* Wavebeam.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C712C12FCE2009EF53B /* Wavebeam.pal */; };
-		959F7F442C12FCE2009EF53B /* YUV-V3.pal in Resources */ = {isa = PBXBuildFile; fileRef = 959F7C722C12FCE2009EF53B /* YUV-V3.pal */; };
 		959F7F452C12FCE2009EF53B /* NstApi.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7C742C12FCE2009EF53B /* NstApi.hpp */; };
 		959F7F462C12FCE2009EF53B /* NstApiBarcodeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7C752C12FCE2009EF53B /* NstApiBarcodeReader.cpp */; };
 		959F7F472C12FCE2009EF53B /* NstApiBarcodeReader.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7C762C12FCE2009EF53B /* NstApiBarcodeReader.hpp */; };
@@ -535,7 +493,6 @@
 		959F81152C12FCE3009EF53B /* NstBoardWhirlwind.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7E452C12FCE2009EF53B /* NstBoardWhirlwind.hpp */; };
 		959F81162C12FCE3009EF53B /* NstBoardZz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7E462C12FCE2009EF53B /* NstBoardZz.cpp */; };
 		959F81172C12FCE3009EF53B /* NstBoardZz.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7E472C12FCE2009EF53B /* NstBoardZz.hpp */; };
-		959F81182C12FCE3009EF53B /* NstDatabase.zip in Resources */ = {isa = PBXBuildFile; fileRef = 959F7E492C12FCE2009EF53B /* NstDatabase.zip */; };
 		959F81192C12FCE3009EF53B /* NstInpAdapter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7E4B2C12FCE2009EF53B /* NstInpAdapter.cpp */; };
 		959F811A2C12FCE3009EF53B /* NstInpAdapter.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7E4C2C12FCE2009EF53B /* NstInpAdapter.hpp */; };
 		959F811B2C12FCE3009EF53B /* NstInpBandaiHyperShot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7E4D2C12FCE2009EF53B /* NstInpBandaiHyperShot.cpp */; };
@@ -668,7 +625,6 @@
 		959F819A2C12FCE3009EF53B /* NstSoundPlayer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7ECE2C12FCE2009EF53B /* NstSoundPlayer.hpp */; };
 		959F819B2C12FCE3009EF53B /* NstSoundRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7ECF2C12FCE2009EF53B /* NstSoundRenderer.cpp */; };
 		959F819C2C12FCE3009EF53B /* NstSoundRenderer.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7ED02C12FCE2009EF53B /* NstSoundRenderer.hpp */; };
-		959F819D2C12FCE3009EF53B /* NstSoundRenderer.inl in Resources */ = {isa = PBXBuildFile; fileRef = 959F7ED12C12FCE2009EF53B /* NstSoundRenderer.inl */; };
 		959F819E2C12FCE3009EF53B /* NstState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7ED22C12FCE2009EF53B /* NstState.cpp */; };
 		959F819F2C12FCE3009EF53B /* NstState.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7ED32C12FCE2009EF53B /* NstState.hpp */; };
 		959F81A02C12FCE3009EF53B /* NstStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7ED42C12FCE2009EF53B /* NstStream.cpp */; };
@@ -684,9 +640,6 @@
 		959F81AA2C12FCE3009EF53B /* NstVector.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7EDE2C12FCE2009EF53B /* NstVector.hpp */; };
 		959F81AB2C12FCE3009EF53B /* NstVideoFilter2xSaI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7EDF2C12FCE2009EF53B /* NstVideoFilter2xSaI.cpp */; };
 		959F81AC2C12FCE3009EF53B /* NstVideoFilter2xSaI.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7EE02C12FCE2009EF53B /* NstVideoFilter2xSaI.hpp */; };
-		959F81AD2C12FCE3009EF53B /* NstVideoFilterHq2x.inl in Resources */ = {isa = PBXBuildFile; fileRef = 959F7EE12C12FCE2009EF53B /* NstVideoFilterHq2x.inl */; };
-		959F81AE2C12FCE3009EF53B /* NstVideoFilterHq3x.inl in Resources */ = {isa = PBXBuildFile; fileRef = 959F7EE22C12FCE2009EF53B /* NstVideoFilterHq3x.inl */; };
-		959F81AF2C12FCE3009EF53B /* NstVideoFilterHq4x.inl in Resources */ = {isa = PBXBuildFile; fileRef = 959F7EE32C12FCE2009EF53B /* NstVideoFilterHq4x.inl */; };
 		959F81B02C12FCE3009EF53B /* NstVideoFilterHqX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7EE42C12FCE2009EF53B /* NstVideoFilterHqX.cpp */; };
 		959F81B12C12FCE3009EF53B /* NstVideoFilterHqX.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7EE52C12FCE2009EF53B /* NstVideoFilterHqX.hpp */; };
 		959F81B22C12FCE3009EF53B /* NstVideoFilterNone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7EE62C12FCE2009EF53B /* NstVideoFilterNone.cpp */; };
@@ -706,26 +659,10 @@
 		959F81C02C12FCE3009EF53B /* NstXml.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7EF42C12FCE2009EF53B /* NstXml.hpp */; };
 		959F81C12C12FCE3009EF53B /* NstZlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 959F7EF52C12FCE2009EF53B /* NstZlib.cpp */; };
 		959F81C22C12FCE3009EF53B /* NstZlib.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 959F7EF62C12FCE2009EF53B /* NstZlib.hpp */; };
-		959F81C32C12FCE3009EF53B /* 1.line_phase.nes in Resources */ = {isa = PBXBuildFile; fileRef = 959F7EF82C12FCE2009EF53B /* 1.line_phase.nes */; };
-		959F81C42C12FCE3009EF53B /* 2.frame_phase.nes in Resources */ = {isa = PBXBuildFile; fileRef = 959F7EF92C12FCE2009EF53B /* 2.frame_phase.nes */; };
-		959F81C52C12FCE3009EF53B /* 3.special_frame_phase.nes in Resources */ = {isa = PBXBuildFile; fileRef = 959F7EFA2C12FCE2009EF53B /* 3.special_frame_phase.nes */; };
-		959F81C72C12FCE3009EF53B /* changes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 959F7EFD2C12FCE2009EF53B /* changes.txt */; };
 		959F81C82C12FCE3009EF53B /* demo_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 959F7EFE2C12FCE2009EF53B /* demo_impl.h */; };
-		959F81CA2C12FCE3009EF53B /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F002C12FCE2009EF53B /* license.txt */; };
 		959F81CB2C12FCE3009EF53B /* nes_ntsc_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 959F7F012C12FCE2009EF53B /* nes_ntsc_config.h */; };
 		959F81CC2C12FCE3009EF53B /* nes_ntsc_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 959F7F022C12FCE2009EF53B /* nes_ntsc_impl.h */; };
 		959F81CD2C12FCE3009EF53B /* nes_ntsc.h in Headers */ = {isa = PBXBuildFile; fileRef = 959F7F032C12FCE2009EF53B /* nes_ntsc.h */; };
-		959F81CE2C12FCE3009EF53B /* nes_ntsc.inl in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F042C12FCE2009EF53B /* nes_ntsc.inl */; };
-		959F81CF2C12FCE3009EF53B /* nes_ntsc.txt in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F052C12FCE2009EF53B /* nes_ntsc.txt */; };
-		959F81D02C12FCE3009EF53B /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F062C12FCE2009EF53B /* readme.txt */; };
-		959F81D12C12FCE3009EF53B /* test.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F072C12FCE2009EF53B /* test.bmp */; };
-		959F81D32C12FCE3009EF53B /* .gitlab-ci.yml in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F0B2C12FCE2009EF53B /* .gitlab-ci.yml */; };
-		959F81D42C12FCE3009EF53B /* appveyor.yml in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F0C2C12FCE2009EF53B /* appveyor.yml */; };
-		959F81D52C12FCE3009EF53B /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F0D2C12FCE2009EF53B /* COPYING */; };
-		959F81D62C12FCE3009EF53B /* NstDatabase.xml in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F0E2C12FCE2009EF53B /* NstDatabase.xml */; };
-		959F81D72C12FCE3009EF53B /* README in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F0F2C12FCE2009EF53B /* README */; };
-		959F81D82C12FCE3009EF53B /* schemadb.xsd in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F102C12FCE2009EF53B /* schemadb.xsd */; };
-		959F81D92C12FCE3009EF53B /* schemaromset.xsd in Resources */ = {isa = PBXBuildFile; fileRef = 959F7F112C12FCE2009EF53B /* schemaromset.xsd */; };
 		959F81E62C130CF4009EF53B /* LibretroNestopia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959F767F2C12FC9B009EF53B /* LibretroNestopia.framework */; };
 		959F81E72C130CF4009EF53B /* LibretroNestopia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 959F767F2C12FC9B009EF53B /* LibretroNestopia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -2974,68 +2911,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				959F81CA2C12FCE3009EF53B /* license.txt in Resources */,
-				959F7F3D2C12FCE2009EF53B /* PVM Style D93 (FBX).pal in Resources */,
-				959F7F212C12FCE2009EF53B /* upload_workflow.py in Resources */,
-				959F7F172C12FCE2009EF53B /* core_option_regex.py in Resources */,
-				959F7F412C12FCE2009EF53B /* Unsaturated-V5.pal in Resources */,
-				959F7F402C12FCE2009EF53B /* Unsaturated-Final.pal in Resources */,
-				959F7F362C12FCE2009EF53B /* NES Classic (FBX-FS).pal in Resources */,
-				959F7F1F2C12FCE2009EF53B /* initial_sync.py in Resources */,
-				959F7F332C12FCE2009EF53B /* Composite Direct (FBX).pal in Resources */,
-				959F7F222C12FCE2009EF53B /* v1_to_v2_converter.py in Resources */,
-				959F81C72C12FCE3009EF53B /* changes.txt in Resources */,
-				959F81AF2C12FCE3009EF53B /* NstVideoFilterHq4x.inl in Resources */,
-				959F7F352C12FCE2009EF53B /* hybrid.pal in Resources */,
-				959F7F282C12FCE2009EF53B /* control in Resources */,
-				959F81AE2C12FCE3009EF53B /* NstVideoFilterHq3x.inl in Resources */,
-				959F81D02C12FCE3009EF53B /* readme.txt in Resources */,
-				959F7F1E2C12FCE2009EF53B /* download_workflow.py in Resources */,
-				959F7F322C12FCE2009EF53B /* BMFFINR3.pal in Resources */,
-				959F7F1A2C12FCE2009EF53B /* crowdin_source_upload.py in Resources */,
-				959F7F422C12FCE2009EF53B /* Unsaturated-V6.pal in Resources */,
-				959F7F3A2C12FCE2009EF53B /* ntsc.pal in Resources */,
-				959F7F202C12FCE2009EF53B /* remove_initial_cycle.py in Resources */,
-				959F7F3E2C12FCE2009EF53B /* Smooth (FBX).pal in Resources */,
-				959F7F432C12FCE2009EF53B /* Wavebeam.pal in Resources */,
-				959F81D92C12FCE3009EF53B /* schemaromset.xsd in Resources */,
-				959F7F1B2C12FCE2009EF53B /* crowdin_translate.py in Resources */,
-				959F7F142C12FCE2009EF53B /* crowdin_translate.yml in Resources */,
-				959F7F2C2C12FCE2009EF53B /* link.T in Resources */,
-				959F7F182C12FCE2009EF53B /* core_option_translation.py in Resources */,
-				959F81D42C12FCE3009EF53B /* appveyor.yml in Resources */,
-				959F7F342C12FCE2009EF53B /* CXA2025AS-1536.pal in Resources */,
-				959F81D12C12FCE3009EF53B /* test.bmp in Resources */,
-				959F81D32C12FCE3009EF53B /* .gitlab-ci.yml in Resources */,
-				959F81C32C12FCE3009EF53B /* 1.line_phase.nes in Resources */,
-				959F7F2E2C12FCE2009EF53B /* Makefile.common in Resources */,
-				959F81CF2C12FCE3009EF53B /* nes_ntsc.txt in Resources */,
-				959F7F302C12FCE2009EF53B /* xml2hpp.py in Resources */,
-				959F7F372C12FCE2009EF53B /* NES_Classic-FBX.pal in Resources */,
-				959F7F192C12FCE2009EF53B /* crowdin_prep.py in Resources */,
-				959F7F392C12FCE2009EF53B /* Nostalgia-FBX.pal in Resources */,
-				959F7F1C2C12FCE2009EF53B /* crowdin_translation_download.py in Resources */,
-				959F81D62C12FCE3009EF53B /* NstDatabase.xml in Resources */,
-				959F7F312C12FCE2009EF53B /* BMFFINR2.pal in Resources */,
-				959F7F3B2C12FCE2009EF53B /* Original Hardware (FBX).pal in Resources */,
-				959F81D82C12FCE3009EF53B /* schemadb.xsd in Resources */,
-				959F7F1D2C12FCE2009EF53B /* crowdin.yaml in Resources */,
-				959F819D2C12FCE3009EF53B /* NstSoundRenderer.inl in Resources */,
-				959F7F382C12FCE2009EF53B /* nescap.pal in Resources */,
-				959F81C42C12FCE3009EF53B /* 2.frame_phase.nes in Resources */,
-				959F7F442C12FCE2009EF53B /* YUV-V3.pal in Resources */,
-				959F81D52C12FCE3009EF53B /* COPYING in Resources */,
-				959F81CE2C12FCE3009EF53B /* nes_ntsc.inl in Resources */,
-				959F81AD2C12FCE3009EF53B /* NstVideoFilterHq2x.inl in Resources */,
-				959F7F132C12FCE2009EF53B /* crowdin_prep.yml in Resources */,
-				959F7F232C12FCE2009EF53B /* Android.mk in Resources */,
-				959F7F3C2C12FCE2009EF53B /* PVM Style (FBX).pal in Resources */,
-				959F81C52C12FCE3009EF53B /* 3.special_frame_phase.nes in Resources */,
-				959F81182C12FCE3009EF53B /* NstDatabase.zip in Resources */,
-				959F81D72C12FCE3009EF53B /* README in Resources */,
-				959F7F242C12FCE2009EF53B /* Application.mk in Resources */,
-				959F7F162C12FCE2009EF53B /* activate.py in Resources */,
-				959F7F3F2C12FCE2009EF53B /* SONY_CXA2025AS_US.pal in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3077,7 +2952,6 @@
 				959F80A92C12FCE3009EF53B /* NstBoardSachenTca01.cpp in Sources */,
 				959F803C2C12FCE3009EF53B /* NstBoardIremKaiketsu.cpp in Sources */,
 				959F80B02C12FCE3009EF53B /* NstBoardSubor.cpp in Sources */,
-				959F7F2D2C12FCE2009EF53B /* Makefile in Sources */,
 				959F7FF02C12FCE2009EF53B /* NstBoardBtlMarioBaby.cpp in Sources */,
 				959F7FC22C12FCE2009EF53B /* NstBoardBmcHero.cpp in Sources */,
 				959F7FB62C12FCE2009EF53B /* NstBoardBmcFk23c.cpp in Sources */,
