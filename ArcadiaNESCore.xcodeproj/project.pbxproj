@@ -10,8 +10,6 @@
 		952CF26B2C07180200DF2832 /* NESCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952CF26A2C07180200DF2832 /* NESCore.swift */; };
 		952CF2722C071D9500DF2832 /* NESCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 952CF2712C071D9500DF2832 /* NESCore.m */; };
 		952CF2732C071DE500DF2832 /* NESCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 952CF26E2C07195700DF2832 /* NESCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		952CF67E2C07240900DF2832 /* ArcadiaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952CF67D2C07240900DF2832 /* ArcadiaCore.framework */; };
-		952CF67F2C07240900DF2832 /* ArcadiaCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 952CF67D2C07240900DF2832 /* ArcadiaCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		957081872C05E9F500217B82 /* ArcadiaNESCore.docc in Sources */ = {isa = PBXBuildFile; fileRef = 957081862C05E9F500217B82 /* ArcadiaNESCore.docc */; };
 		9570818D2C05E9F600217B82 /* ArcadiaNESCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 957081822C05E9F500217B82 /* ArcadiaNESCore.framework */; };
 		957081922C05E9F600217B82 /* ArcadiaNESCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957081912C05E9F600217B82 /* ArcadiaNESCoreTests.swift */; };
@@ -665,6 +663,8 @@
 		959F81CD2C12FCE3009EF53B /* nes_ntsc.h in Headers */ = {isa = PBXBuildFile; fileRef = 959F7F032C12FCE2009EF53B /* nes_ntsc.h */; };
 		959F81E62C130CF4009EF53B /* LibretroNestopia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 959F767F2C12FC9B009EF53B /* LibretroNestopia.framework */; };
 		959F81E72C130CF4009EF53B /* LibretroNestopia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 959F767F2C12FC9B009EF53B /* LibretroNestopia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		95CC71FF2C3AEF08009FB8DD /* ArcadiaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952CF67D2C07240900DF2832 /* ArcadiaCore.framework */; };
+		95CC720F2C3AEFFE009FB8DD /* NESCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC720E2C3AEFFE009FB8DD /* NESCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -698,7 +698,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				952CF67F2C07240900DF2832 /* ArcadiaCore.framework in Embed Frameworks */,
 				959F81E72C130CF4009EF53B /* LibretroNestopia.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -1430,6 +1429,7 @@
 		959F7F0F2C12FCE2009EF53B /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		959F7F102C12FCE2009EF53B /* schemadb.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schemadb.xsd; sourceTree = "<group>"; };
 		959F7F112C12FCE2009EF53B /* schemaromset.xsd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = schemaromset.xsd; sourceTree = "<group>"; };
+		95CC720E2C3AEFFE009FB8DD /* NESCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NESCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1437,7 +1437,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				952CF67E2C07240900DF2832 /* ArcadiaCore.framework in Frameworks */,
 				959F81E62C130CF4009EF53B /* LibretroNestopia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1454,6 +1453,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CC71FF2C3AEF08009FB8DD /* ArcadiaCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1525,6 +1525,7 @@
 				959F7F122C12FCE2009EF53B /* nestopia */,
 				959F76812C12FC9B009EF53B /* LibretroNestopia.h */,
 				959F76822C12FC9B009EF53B /* LibretroNestopia.docc */,
+				95CC720E2C3AEFFE009FB8DD /* NESCore.swift */,
 			);
 			path = LibretroNestopia;
 			sourceTree = "<group>";
@@ -2865,6 +2866,7 @@
 					};
 					959F767E2C12FC9B009EF53B = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					959F76872C12FC9B009EF53B = {
 						CreatedOnToolsVersion = 15.4;
@@ -3171,6 +3173,7 @@
 				959F7F7C2C12FCE2009EF53B /* NstBoardBandaiAerobicsStudio.cpp in Sources */,
 				959F7F922C12FCE2009EF53B /* NstBoardBmc31in1.cpp in Sources */,
 				959F7FBC2C12FCE2009EF53B /* NstBoardBmcGolden190in1.cpp in Sources */,
+				95CC720F2C3AEFFE009FB8DD /* NESCore.swift in Sources */,
 				959F81852C12FCE3009EF53B /* NstNsf.cpp in Sources */,
 				959F80862C12FCE3009EF53B /* NstBoardNitra.cpp in Sources */,
 				959F81A72C12FCE3009EF53B /* NstTrackerRewinder.cpp in Sources */,
@@ -3541,6 +3544,7 @@
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -3580,6 +3584,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -3591,6 +3596,7 @@
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++98";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -3639,6 +3645,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 32DR4Q2NF7;
@@ -3660,6 +3667,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 32DR4Q2NF7;
