@@ -7,7 +7,6 @@
 
 import Foundation
 import ArcadiaCore
-import LibretroNestopia
 
 @Observable public class ArcadiaNES: ArcadiaCoreProtocol {
     
