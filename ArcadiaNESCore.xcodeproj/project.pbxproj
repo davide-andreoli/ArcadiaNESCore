@@ -672,7 +672,6 @@
 		95CC779F2C3BC2D0009FB8DD /* libretro_core_options.h in Headers */ = {isa = PBXBuildFile; fileRef = 95CC74CC2C3BC2D0009FB8DD /* libretro_core_options.h */; };
 		95CC77A02C3BC2D0009FB8DD /* libretro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 95CC74CD2C3BC2D0009FB8DD /* libretro.cpp */; };
 		95CC77A12C3BC2D0009FB8DD /* link.T in Resources */ = {isa = PBXBuildFile; fileRef = 95CC74CE2C3BC2D0009FB8DD /* link.T */; };
-		95CC77A22C3BC2D0009FB8DD /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 95CC74CF2C3BC2D0009FB8DD /* Makefile */; };
 		95CC77A32C3BC2D0009FB8DD /* Makefile.common in Resources */ = {isa = PBXBuildFile; fileRef = 95CC74D02C3BC2D0009FB8DD /* Makefile.common */; };
 		95CC77A42C3BC2D0009FB8DD /* nstdatabase.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 95CC74D12C3BC2D0009FB8DD /* nstdatabase.hpp */; };
 		95CC77A62C3BC2D0009FB8DD /* BMFFINR2.pal in Resources */ = {isa = PBXBuildFile; fileRef = 95CC74D42C3BC2D0009FB8DD /* BMFFINR2.pal */; };
@@ -5696,7 +5695,6 @@
 				95CC78652C3BC2D1009FB8DD /* NstBoardBtlMarioBaby.cpp in Sources */,
 				95CC77F92C3BC2D0009FB8DD /* NstBoardBandaiLz93d50ex.cpp in Sources */,
 				95CC79592C3BC2D1009FB8DD /* NstBoardUnlCc21.cpp in Sources */,
-				95CC77A22C3BC2D0009FB8DD /* Makefile in Sources */,
 				95CC79942C3BC2D1009FB8DD /* NstInpCrazyClimber.cpp in Sources */,
 				95CC7A0C2C3BC2D2009FB8DD /* NstSoundPcm.cpp in Sources */,
 				95CC7A202C3BC2D2009FB8DD /* NstVideoFilter2xSaI.cpp in Sources */,
